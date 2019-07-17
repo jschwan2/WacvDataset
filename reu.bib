@@ -1,0 +1,1372 @@
+
+@article{chen_temporally_2019,
+	title = {Temporally {Identity}-{Aware} {SSD} {With} {Attentional} {LSTM}},
+	issn = {2168-2267},
+	doi = {10.1109/TCYB.2019.2894261},
+	abstract = {Temporal object detection has attracted significant attention, but most popular detection methods cannot leverage rich temporal information in videos. Very recently, many algorithms have been developed for video detection task, yet very few approaches can achieve real-time online object detection in videos. In this paper, based on the attention mechanism and convolutional long short-term memory (ConvLSTM), we propose a temporal single-shot detector (TSSD) for real-world detection. Distinct from the previous methods, we take aim at temporally integrating pyramidal feature hierarchy using ConvLSTM, and design a novel structure, including a low-level temporal unit as well as a high-level one for multiscale feature maps. Moreover, we develop a creative temporal analysis unit, namely, attentional ConvLSTM, in which a temporal attention mechanism is specially tailored for background suppression and scale suppression, while a ConvLSTM integrates attention-aware features across time. An association loss and a multistep training are designed for temporal coherence. Besides, an online tubelet analysis (OTA) is exploited for identification. Our framework is evaluated on ImageNet VID dataset and 2DMOT15 dataset. Extensive comparisons on the detection and tracking capability validate the superiority of the proposed approach. Consequently, the developed TSSD-OTA achieves a fast speed and an overall competitive performance in terms of detection and tracking. Finally, a real-world maneuver is conducted for underwater object grasping.},
+	journal = {IEEE Transactions on Cybernetics},
+	author = {Chen, X. and Yu, J. and Wu, Z.},
+	year = {2019},
+	keywords = {Detectors, Feature extraction, Object detection, Proposals, Real-time systems, sequential learning, Task analysis, tracking-by-detection, video processing, Videos, Visualization},
+	pages = {1--13},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/SQSB8TGT/8638831.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/GWJVCTAB/Chen et al. - 2019 - Temporally Identity-Aware SSD With Attentional LST.pdf:application/pdf}
+}
+
+@article{bae_confidence-based_2018,
+	title = {Confidence-{Based} {Data} {Association} and {Discriminative} {Deep} {Appearance} {Learning} for {Robust} {Online} {Multi}-{Object} {Tracking}},
+	volume = {40},
+	issn = {0162-8828},
+	doi = {10.1109/TPAMI.2017.2691769},
+	abstract = {Online multi-object tracking aims at estimating the tracks of multiple objects instantly with each incoming frame and the information provided up to the moment. It still remains a difficult problem in complex scenes, because of the large ambiguity in associating multiple objects in consecutive frames and the low discriminability between objects appearances. In this paper, we propose a robust online multi-object tracking method that can handle these difficulties effectively. We first define the tracklet confidence using the detectability and continuity of a tracklet, and decompose a multi-object tracking problem into small subproblems based on the tracklet confidence. We then solve the online multi-object tracking problem by associating tracklets and detections in different ways according to their confidence values. Based on this strategy, tracklets sequentially grow with online-provided detections, and fragmented tracklets are linked up with others without any iterative and expensive association steps. For more reliable association between tracklets and detections, we also propose a deep appearance learning method to learn a discriminative appearance model from large training datasets, since the conventional appearance learning methods do not provide rich representation that can distinguish multiple objects with large appearance variations. In addition, we combine online transfer learning for improving appearance discriminability by adapting the pre-trained deep model during online tracking. Experiments with challenging public datasets show distinct performance improvement over other state-of-the-arts batch and online tracking methods, and prove the effect and usefulness of the proposed methods for online multi-object tracking.},
+	number = {3},
+	journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	author = {Bae, S. and Yoon, K.},
+	month = mar,
+	year = {2018},
+	keywords = {Adaptation models, confidence-based data association, Confidence-based data association, deep appearance learning, discriminative deep appearance learning, iterative association steps, iterative methods, learning (artificial intelligence), Learning systems, Machine learning, Multi-object tracking, object tracking, online transfer learning, robust online multiobject tracking method, Robustness, sensor fusion, surveillance system, Target tracking, tracking-by-detection, tracklet confidence, Trajectory},
+	pages = {595--610},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/29BNZLEB/metrics.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/GKSPH6DP/Bae and Yoon - 2018 - Confidence-Based Data Association and Discriminati.pdf:application/pdf}
+}
+
+@inproceedings{sadeghian_tracking_2017,
+	address = {Venice},
+	title = {Tracking the {Untrackable}: {Learning} to {Track} {Multiple} {Cues} with {Long}-{Term} {Dependencies}},
+	isbn = {978-1-5386-1032-9},
+	shorttitle = {Tracking the {Untrackable}},
+	url = {http://ieeexplore.ieee.org/document/8237303/},
+	doi = {10.1109/ICCV.2017.41},
+	abstract = {The majority of existing solutions to the Multi-Target Tracking (MTT) problem do not combine cues over a long period of time in a coherent fashion. In this paper, we present an online method that encodes long-term temporal dependencies across multiple cues. One key challenge of tracking methods is to accurately track occluded targets or those which share similar appearance properties with surrounding objects. To address this challenge, we present a structure of Recurrent Neural Networks (RNN) that jointly reasons on multiple cues over a temporal window. Our method allows to correct data association errors and recover observations from occluded states. We demonstrate the robustness of our data-driven approach by tracking multiple targets using their appearance, motion, and even interactions. Our method outperforms previous works on multiple publicly available datasets including the challenging MOT benchmark.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {2017 {IEEE} {International} {Conference} on {Computer} {Vision} ({ICCV})},
+	publisher = {IEEE},
+	author = {Sadeghian, Amir and Alahi, Alexandre and Savarese, Silvio},
+	month = oct,
+	year = {2017},
+	pages = {300--311},
+	file = {Sadeghian et al. - 2017 - Tracking the Untrackable Learning to Track Multip.pdf:/Users/jonoschwan/Zotero/storage/FS8W5S4Y/Sadeghian et al. - 2017 - Tracking the Untrackable Learning to Track Multip.pdf:application/pdf}
+}
+
+@misc{jiang_multiobject_2018,
+	type = {Research article},
+	title = {Multiobject {Tracking} in {Videos} {Based} on {LSTM} and {Deep} {Reinforcement} {Learning}},
+	url = {https://www.hindawi.com/journals/complexity/2018/4695890/},
+	abstract = {Multiple-object tracking is a challenging issue in the computer vision community. In this paper, we propose a multiobject tracking algorithm in videos based on long short-term memory (LSTM) and deep reinforcement learning. Firstly, the multiple objects are detected by the object detector YOLO V2. Secondly, the problem of single-object tracking is considered as a Markov decision process (MDP) since this setting provides a formal strategy to model an agent that makes sequence decisions. The single-object tracker is composed of a network that includes a CNN followed by an LSTM unit. Each tracker, regarded as an agent, is trained by utilizing deep reinforcement learning. Finally, we conduct a data association using LSTM for each frame between the results of the object detector and the results of single-object trackers. From the experimental results, we can see that our tracker achieves better performance than the other state-of-the-art methods. Multiple targets can be steadily tracked even when frequent occlusions, similar appearances, and scale changes happened.},
+	language = {en},
+	urldate = {2019-05-20},
+	journal = {Complexity},
+	author = {Jiang, Ming-xin and Deng, Chao and Pan, Zhi-geng and Wang, Lan-fang and Sun, Xing},
+	year = {2018},
+	doi = {10.1155/2018/4695890},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/WYF96EVA/Jiang et al. - 2018 - Multiobject Tracking in Videos Based on LSTM and D.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/E6HHNY78/4695890.html:application/xhtml+xml}
+}
+
+@incollection{ferrari_multi-object_2018,
+	address = {Cham},
+	title = {Multi-object {Tracking} with {Neural} {Gating} {Using} {Bilinear} {LSTM}},
+	volume = {11212},
+	isbn = {978-3-030-01236-6 978-3-030-01237-3},
+	url = {http://link.springer.com/10.1007/978-3-030-01237-3_13},
+	abstract = {In recent deep online and near-online multi-object tracking approaches, a diﬃculty has been to incorporate long-term appearance models to eﬃciently score object tracks under severe occlusion and multiple missing detections. In this paper, we propose a novel recurrent network model, the Bilinear LSTM, in order to improve the learning of long-term appearance models via a recurrent network. Based on intuitions drawn from recursive least squares, Bilinear LSTM stores building blocks of a linear predictor in its memory, which is then coupled with the input in a multiplicative manner, instead of the additive coupling in conventional LSTM approaches. Such coupling resembles an online learned classiﬁer/regressor at each time step, which we have found to improve performances in using LSTM for appearance modeling. We also propose novel data augmentation approaches to eﬃciently train recurrent models that score object tracks on both appearance and motion. We train an LSTM that can score object tracks based on both appearance and motion and utilize it in a multiple hypothesis tracking framework. In experiments, we show that with our novel LSTM model, we achieved state-of-the-art performance on near-online multiple object tracking on the MOT 2016 and MOT 2017 benchmarks.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {Computer {Vision} – {ECCV} 2018},
+	publisher = {Springer International Publishing},
+	author = {Kim, Chanho and Li, Fuxin and Rehg, James M.},
+	editor = {Ferrari, Vittorio and Hebert, Martial and Sminchisescu, Cristian and Weiss, Yair},
+	year = {2018},
+	doi = {10.1007/978-3-030-01237-3_13},
+	pages = {208--224},
+	file = {Kim et al. - 2018 - Multi-object Tracking with Neural Gating Using Bil.pdf:/Users/jonoschwan/Zotero/storage/WMB23ABA/Kim et al. - 2018 - Multi-object Tracking with Neural Gating Using Bil.pdf:application/pdf}
+}
+
+@inproceedings{milan_online_2017,
+	title = {Online {Multi}-{Target} {Tracking} {Using} {Recurrent} {Neural} {Networks}},
+	copyright = {Authors who publish a paper in this conference agree to the following terms:   Author(s) agree to transfer their copyrights in their article/paper to the Association for the Advancement of Artificial Intelligence (AAAI), in order to deal with future requests for reprints, translations, anthologies, reproductions, excerpts, and other publications. This grant will include, without limitation, the entire copyright in the article/paper in all countries of the world, including all renewals, extensions, and reversions thereof, whether such rights current exist or hereafter come into effect, and also the exclusive right to create electronic versions of the article/paper, to the extent that such right is not subsumed under copyright.  The author(s) warrants that they are the sole author and owner of the copyright in the above article/paper, except for those portions shown to be in quotations; that the article/paper is original throughout; and that the undersigned right to make the grants set forth above is complete and unencumbered.  The author(s) agree that if anyone brings any claim or action alleging facts that, if true, constitute a breach of any of the foregoing warranties, the author(s) will hold harmless and indemnify AAAI, their grantees, their licensees, and their distributors against any liability, whether under judgment, decree, or compromise, and any legal fees and expenses arising out of that claim or actions, and the undersigned will cooperate fully in any defense AAAI may make to such claim or action. Moreover, the undersigned agrees to cooperate in any claim or other action seeking to protect or enforce any right the undersigned has granted to AAAI in the article/paper. If any such claim or action fails because of facts that constitute a breach of any of the foregoing warranties, the undersigned agrees to reimburse whomever brings such claim or action for expenses and attorneys’ fees incurred therein.  Author(s) retain all proprietary rights other than copyright (such as patent rights).  Author(s) may make personal reuse of all or portions of the above article/paper in other works of their own authorship.  Author(s) may reproduce, or have reproduced, their article/paper for the author’s personal use, or for company use provided that AAAI copyright and the source are indicated, and that the copies are not used in a way that implies AAAI endorsement of a product or service of an employer, and that the copies per se are not offered for sale. The foregoing right shall not permit the posting of the article/paper in electronic or digital form on any computer network, except by the author or the author’s employer, and then only on the author’s or the employer’s own web page or ftp site. Such web page or ftp site, in addition to the aforementioned requirements of this Paragraph, must provide an electronic reference or link back to the AAAI electronic server, and shall not post other AAAI copyrighted materials not of the author’s or the employer’s creation (including tables of contents with links to other papers) without AAAI’s written permission.  Author(s) may make limited distribution of all or portions of their article/paper prior to publication.  In the case of work performed under U.S. Government contract, AAAI grants the U.S. Government royalty-free permission to reproduce all or portions of the above article/paper, and to authorize others to do so, for U.S. Government purposes.  In the event the above article/paper is not accepted and published by AAAI, or is withdrawn by the author(s) before acceptance by AAAI, this agreement becomes null and void.},
+	url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14184},
+	abstract = {We present a novel approach to online multi-target tracking based on recurrent neural networks (RNNs). Tracking multiple objects in real-world scenes involves many challenges, including a) an a-priori unknown and time-varying number of targets, b) a continuous state estimation of all present targets, and c) a discrete combinatorial problem of data association. Most previous methods involve complex models that require tedious tuning of parameters. Here, we propose for the first time, an end-to-end learning approach for online multi-target tracking. Existing deep learning methods are not designed for the above challenges and cannot be trivially applied to the task. Our solution addresses all of the above points in a principled way. Experiments on both synthetic and real data show promising results obtained at {\textasciitilde}300 Hz on a standard CPU, and pave the way towards future research in this direction.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {Thirty-{First} {AAAI} {Conference} on {Artificial} {Intelligence}},
+	author = {Milan, Anton and Rezatofighi, S. Hamid and Dick, Anthony and Reid, Ian and Schindler, Konrad},
+	month = feb,
+	year = {2017},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/MVNR8W7X/Milan et al. - 2017 - Online Multi-Target Tracking Using Recurrent Neura.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/25ZGZ7US/14184.html:text/html}
+}
+
+@inproceedings{alahi_social_2016,
+	title = {Social {LSTM}: {Human} {Trajectory} {Prediction} in {Crowded} {Spaces}},
+	shorttitle = {Social {LSTM}},
+	url = {http://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html},
+	urldate = {2019-05-20},
+	author = {Alahi, Alexandre and Goel, Kratarth and Ramanathan, Vignesh and Robicquet, Alexandre and Fei-Fei, Li and Savarese, Silvio},
+	year = {2016},
+	pages = {961--971},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/5ADY364Z/Alahi et al. - 2016 - Social LSTM Human Trajectory Prediction in Crowde.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/V8SBK2CT/Alahi_Social_LSTM_Human_CVPR_2016_paper.html:text/html}
+}
+
+@article{wang_trajectory_2017,
+	title = {Trajectory {Predictor} by {Using} {Recurrent} {Neural} {Networks} in {Visual} {Tracking}},
+	volume = {47},
+	issn = {2168-2267},
+	doi = {10.1109/TCYB.2017.2705345},
+	abstract = {Motion models have been proved to be a crucial part in the visual tracking process. In recent trackers, particle filter and sliding windows-based motion models have been widely used. Treating motion models as a sequence prediction problem, we can estimate the motion of objects using their trajectories. Moreover, it is possible to transfer the learned knowledge from annotated trajectories to new objects. Inspired by recent advance in deep learning for visual feature extraction and sequence prediction, we propose a trajectory predictor to learn prior knowledge from annotated trajectories and transfer it to predict the motion of target objects. In this predictor, convolutional neural networks extract the visual features of target objects. Long short-term memory model leverages the annotated trajectory priors as well as sequential visual information, which includes the tracked features and center locations of the target object, to predict the motion. Furthermore, to extend this method to videos in which it is difficult to obtain annotated trajectories, a dynamic weighted motion model that combines the proposed trajectory predictor with a random sampler is proposed. To evaluate the transfer performance of the proposed trajectory predictor, we annotated a real-world vehicle dataset. Experiment results on both this real-world vehicle dataset and an online tracker benchmark dataset indicate that the proposed method outperforms several state-of-the-art trackers.},
+	number = {10},
+	journal = {IEEE Transactions on Cybernetics},
+	author = {Wang, L. and Zhang, L. and Yi, Z.},
+	month = oct,
+	year = {2017},
+	keywords = {Computer Simulation, Convolutional neural networks (CNNs), deep learning, feature extraction, Feature extraction, Humans, Image Processing, Computer-Assisted, learning (artificial intelligence), long short-term memory model, Machine Learning, Neural Networks (Computer), particle filter, particle filtering (numerical methods), Predictive models, real-world vehicle dataset, recurrent neural nets, recurrent neural networks, recurrent neural networks (RNNs), sequence prediction, sliding windows-based motion models, target tracking, Target tracking, Trajectory, trajectory prediction, trajectory predictor, Video Recording, Videos, visual feature extraction, visual tracking, Visualization},
+	pages = {3172--3183},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/X4ITDCD8/7935541.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/FA2CU9SU/Wang et al. - 2017 - Trajectory Predictor by Using Recurrent Neural Net.pdf:application/pdf}
+}
+
+@inproceedings{lu_online_2017,
+	title = {Online {Video} {Object} {Detection} {Using} {Association} {LSTM}},
+	url = {http://openaccess.thecvf.com/content_iccv_2017/html/Lu__Online_Video_ICCV_2017_paper.html},
+	urldate = {2019-05-20},
+	author = {Lu, Yongyi and Lu, Cewu and Tang, Chi-Keung},
+	year = {2017},
+	pages = {2344--2352},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/W8JU3D3V/Lu et al. - 2017 - Online Video Object Detection Using Association LS.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/J6WV6G6J/Lu__Online_Video_ICCV_2017_paper.html:text/html}
+}
+
+@inproceedings{coskun_long_2017,
+	title = {Long {Short}-{Term} {Memory} {Kalman} {Filters}: {Recurrent} {Neural} {Estimators} for {Pose} {Regularization}},
+	shorttitle = {Long {Short}-{Term} {Memory} {Kalman} {Filters}},
+	url = {http://openaccess.thecvf.com/content_iccv_2017/html/Coskun_Long_Short-Term_Memory_ICCV_2017_paper.html},
+	urldate = {2019-05-20},
+	author = {Coskun, Huseyin and Achilles, Felix and DiPietro, Robert and Navab, Nassir and Tombari, Federico},
+	year = {2017},
+	pages = {5524--5532},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/K2QWV2UD/Coskun et al. - 2017 - Long Short-Term Memory Kalman Filters Recurrent N.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/H7FU3IRS/Coskun_Long_Short-Term_Memory_ICCV_2017_paper.html:text/html}
+}
+
+@inproceedings{ning_spatially_2017,
+	title = {Spatially supervised recurrent convolutional neural networks for visual object tracking},
+	doi = {10.1109/ISCAS.2017.8050867},
+	abstract = {In this paper, we develop a new approach of spatially supervised recurrent convolutional neural networks for visual object tracking. Our recurrent convolutional network exploits the history of locations as well as the distinctive visual features learned by the deep neural networks. Inspired by recent bounding box regression methods for object detection, we study the regression capability of Long Short-Term Memory (LSTM) in the temporal domain, and propose to concatenate high-level visual features produced by convolutional networks with region information. In contrast to existing deep learning based trackers that use binary classification for region candidates, we use regression for direct prediction of the tracking locations both at the convolutional layer and at the recurrent unit. Our experimental results on challenging benchmark video tracking datasets show that our tracker is competitive with state-of-the-art approaches while maintaining low computational cost.},
+	booktitle = {2017 {IEEE} {International} {Symposium} on {Circuits} and {Systems} ({ISCAS})},
+	author = {Ning, G. and Zhang, Z. and Huang, C. and Ren, X. and Wang, H. and Cai, C. and He, Z.},
+	month = may,
+	year = {2017},
+	keywords = {benchmark video tracking datasets, binary classification, bounding box regression methods, deep learning based trackers, deep neural networks, distinctive visual features, feature extraction, Feature extraction, Heating systems, high-level visual features, image classification, long short-term memory, LSTM, Neural networks, object detection, object tracking, Object tracking, recurrent neural nets, regression analysis, spatially supervised recurrent convolutional neural networks, Target tracking, temporal domain, Training, visual object tracking, Visualization},
+	pages = {1--4},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/FP8MPF5H/8050867.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/7YD587RL/Ning et al. - 2017 - Spatially supervised recurrent convolutional neura.pdf:application/pdf}
+}
+
+@article{perez-ortiz_kalman_2003,
+	title = {Kalman filters improve {LSTM} network performance in problems unsolvable by traditional recurrent nets},
+	volume = {16},
+	issn = {0893-6080},
+	url = {http://www.sciencedirect.com/science/article/pii/S0893608002002198},
+	doi = {10.1016/S0893-6080(02)00219-8},
+	abstract = {The long short-term memory (LSTM) network trained by gradient descent solves difficult problems which traditional recurrent neural networks in general cannot. We have recently observed that the decoupled extended Kalman filter training algorithm allows for even better performance, reducing significantly the number of training steps when compared to the original gradient descent training algorithm. In this paper we present a set of experiments which are unsolvable by classical recurrent networks but which are solved elegantly and robustly and quickly by LSTM combined with Kalman filters.},
+	number = {2},
+	urldate = {2019-05-20},
+	journal = {Neural Networks},
+	author = {Pérez-Ortiz, Juan Antonio and Gers, Felix A. and Eck, Douglas and Schmidhuber, Jürgen},
+	month = mar,
+	year = {2003},
+	keywords = {Context sensitive language inference, Decoupled extended Kalman filter, Long short-term memory, Online prediction, Recurrent neural networks},
+	pages = {241--250},
+	file = {ScienceDirect Full Text PDF:/Users/jonoschwan/Zotero/storage/M6TGIVYX/Pérez-Ortiz et al. - 2003 - Kalman filters improve LSTM network performance in.pdf:application/pdf;ScienceDirect Snapshot:/Users/jonoschwan/Zotero/storage/IF85G8DE/S0893608002002198.html:text/html}
+}
+
+@inproceedings{liu_research_2007,
+	title = {Research of the {Improved} {Camshift} {Tracking} {Algorithm}},
+	doi = {10.1109/ICMA.2007.4303678},
+	abstract = {In this paper it will introduce the improved Camshift algorithm based on the Kalman filter, which is applied to track a moving target. Improved Camshift algorithm is a algorithm that H, S and V components space is used to track a moving target in HSV space. The next position of the moving object is estimated by the Kalman. According to H and S and V, it can be appropriate to determine the track of moving target. The algorithm effectively overcomes the shortcoming of the traditional Camshift algorithm. For example, it is easy to solve the divergence problem during the tracking. Finally, the usefulness of algorithm is validated by experiment.},
+	booktitle = {2007 {International} {Conference} on {Mechatronics} and {Automation}},
+	author = {Liu, X. and Chu, H. and Li, P.},
+	month = aug,
+	year = {2007},
+	keywords = {Automation, Camshift algorithm, Camshift tracking algorithm, Computer science, divergence problem, Educational institutions, filtering theory, HSV space, Image processing, Kalman filter, Kalman filters, Mechatronics, Moving target, Noise measurement, Predictive models, Space technology, target tracking, Target tracking},
+	pages = {968--972},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/J5D2TPT5/4303678.html:text/html}
+}
+
+@inproceedings{liu_research_2007-1,
+	title = {Research of the {Improved} {Camshift} {Tracking} {Algorithm}},
+	doi = {10.1109/ICMA.2007.4303678},
+	abstract = {In this paper it will introduce the improved Camshift algorithm based on the Kalman filter, which is applied to track a moving target. Improved Camshift algorithm is a algorithm that H, S and V components space is used to track a moving target in HSV space. The next position of the moving object is estimated by the Kalman. According to H and S and V, it can be appropriate to determine the track of moving target. The algorithm effectively overcomes the shortcoming of the traditional Camshift algorithm. For example, it is easy to solve the divergence problem during the tracking. Finally, the usefulness of algorithm is validated by experiment.},
+	booktitle = {2007 {International} {Conference} on {Mechatronics} and {Automation}},
+	author = {Liu, X. and Chu, H. and Li, P.},
+	month = aug,
+	year = {2007},
+	keywords = {Automation, Camshift algorithm, Camshift tracking algorithm, Computer science, divergence problem, Educational institutions, filtering theory, HSV space, Image processing, Kalman filter, Kalman filters, Mechatronics, Moving target, Noise measurement, Predictive models, Space technology, target tracking, Target tracking},
+	pages = {968--972},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/7BTFKVQV/4303678.html:text/html}
+}
+
+
+
+
+
+@inproceedings{lukezic_discriminative_2017,
+	title = {Discriminative correlation filter with channel and spatial reliability},
+	booktitle = {Proceedings of the {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}},
+	author = {Lukezic, Alan and Vojir, Tomas and ˇCehovin Zajc, Luka and Matas, Jiri and Kristan, Matej},
+	year = {2017},
+	pages = {6309--6318},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/Z8BQHE4K/Lukezic et al. - 2017 - Discriminative correlation filter with channel and.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/ZKIJPW9U/Lukezic_Discriminative_Correlation_Filter_CVPR_2017_paper.html:text/html}
+}
+
+@article{romero-ramirez_speeded_2018,
+	title = {Speeded up detection of squared fiducial markers},
+	volume = {76},
+	journal = {Image and Vision Computing},
+	author = {Romero-Ramirez, Francisco J. and Muñoz-Salinas, Rafael and Medina-Carnicer, Rafael},
+	year = {2018},
+	pages = {38--47},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/AD8D9HX7/S0262885618300799.html:text/html}
+}
+
+@inproceedings{yadav_constant_2013,
+	title = {A constant gain {Kalman} filter approach to track maneuvering targets},
+	booktitle = {2013 {IEEE} {International} {Conference} on {Control} {Applications} ({CCA})},
+	publisher = {IEEE},
+	author = {Yadav, Ashwin and Awasthi, Peeyush and Naik, Naren and Ananthasayanam, M. R.},
+	year = {2013},
+	pages = {562--567},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/IDQKVGTI/6662809.html:text/html}
+}
+
+@inproceedings{fremont_direct_2002,
+	title = {Direct camera calibration using two concentric circles from a single view},
+	booktitle = {International {Conference} on {Artificial} {Reality} and {Telexistence}},
+	publisher = {Citeseer},
+	author = {Fremont, Vincent and Chellali, Ryad},
+	year = {2002},
+	pages = {93--98},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/P8YFUKXY/Fremont and Chellali - 2002 - Direct camera calibration using two concentric cir.pdf:application/pdf}
+}
+
+@article{fornaciari_fast_2014,
+	title = {A fast and effective ellipse detector for embedded vision applications},
+	volume = {47},
+	number = {11},
+	journal = {Pattern Recognition},
+	author = {Fornaciari, Michele and Prati, Andrea and Cucchiara, Rita},
+	year = {2014},
+	pages = {3693--3708},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/XCGNS64X/Fornaciari et al. - 2014 - A fast and effective ellipse detector for embedded.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/YTIEB2A8/S0031320314001976.html:text/html}
+}
+
+@inproceedings{magre2014using,
+  title={Using close range photogrammetric method to estimate kinetic variables in olympic-style weightlifting},
+  author={Magre, Luz Alejandra and Santos, Juan Carlos Mart{\'\i}nez},
+  booktitle={2014 III International Congress of Engineering Mechatronics and Automation (CIIMA)},
+  pages={1--4},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{srisen2015kinect,
+  title={Kinect Joints Correction Using Optical Flow for Weightlifting Videos},
+  author={Srisen, Pichamon and Auephanwiriyakul, Sansanee and Theera-Umpon, Nipon and Chamnongkich, Samatchai},
+  booktitle={2015 Seventh International Conference on Computational Intelligence, Modelling and Simulation (CIMSim)},
+  pages={37--42},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{jain2013representing,
+  title={Representing videos using mid-level discriminative patches},
+  author={Jain, Arpit and Gupta, Abhinav and Rodriguez, Mikel and Davis, Larry S},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={2571--2578},
+  year={2013}
+}
+
+@article{kuruppu2013high,
+  title={High speed motion tracking for weightlifting based on correlation coefficient template matching},
+  author={Kuruppu, Gihan and Kodituwakku, SR and Pinidiyaarachchi, UAJ},
+  journal={International Journal of Soft Computing and Engineering},
+  volume={2},
+  year={2013}
+}
+
+@article{hsu2014efficient,
+  title={Efficient barbell trajectory extraction algorithm for kinematic analysis using video spatial and temporal information},
+  author={Hsu, Ching-Ting and Ho, Wei-Hua and Chen, Jui-Lien and Lin, Ying-Chen},
+  journal={Biomedical Engineering},
+  volume={817},
+  pages={818--041},
+  year={2014}
+}
+
+
+@article{hinedi_extended_1988,
+  title={An Extended Kalman Filter Based Automatic Frequency Control Loop},
+  author={Hinedi, S},
+  journal={Telecommunications and Data Acquisition Progress Report},
+  volume={95},
+  pages={219--228},
+  year={1988}
+}
+
+@article{nakazawa_real-time_2003,
+	title = {Real-time algorithms for estimating jerk signals from noisy acceleration data},
+	volume = {18},
+	number = {1-3},
+	journal = {International Journal of Applied Electromagnetics and Mechanics},
+	author = {Nakazawa, Shin-ichi and Ishihara, Tadashi and Inooka, Hikaru},
+	year = {2003},
+	pages = {149--163},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/WYJQP9B4/jae00282.html:text/html}
+}
+
+@article{mahapatra_mixed_2000,
+	title = {Mixed coordinate tracking of generalized maneuvering targets using acceleration and jerk models},
+	volume = {36},
+	number = {3},
+	journal = {IEEE Transactions on Aerospace and Electronic Systems},
+	author = {Mahapatra, Pravas R. and Mehrotra, Kishore},
+	year = {2000},
+	pages = {992--1000},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/F4SJDQ2B/Mahapatra and Mehrotra - 2000 - Mixed coordinate tracking of generalized maneuveri.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/5AJY8GVK/869519.html:text/html}
+}
+
+
+
+
+@inproceedings{basca_randomized_2005,
+	title = {Randomized hough transform for ellipse detection with result clustering},
+	volume = {2},
+	booktitle = {{EUROCON} 2005-{The} {International} {Conference} on" {Computer} as a {Tool}"},
+	publisher = {IEEE},
+	author = {Basca, Cosmin A. and Talos, Mihai and Brad, Remus},
+	year = {2005},
+	pages = {1397--1400},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/3AC8SI5Y/1630222.html:text/html}
+}
+
+@inproceedings{patraucean_parameterless_2012,
+	title = {A parameterless line segment and elliptical arc detector with enhanced ellipse fitting},
+	booktitle = {European {Conference} on {Computer} {Vision}},
+	publisher = {Springer},
+	author = {Pătrăucean, Viorica and Gurdjos, Pierre and Von Gioi, Rafael Grompone},
+	year = {2012},
+	pages = {572--585},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/WGA6DI96/Pătrăucean et al. - 2012 - A parameterless line segment and elliptical arc de.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/CSBPN4QR/978-3-642-33709-3_41.html:text/html}
+}
+
+@article{zhang_robust_2005,
+	title = {A robust, real-time ellipse detector},
+	volume = {38},
+	number = {2},
+	journal = {Pattern Recognition},
+	author = {Zhang, Si-Cheng and Liu, Zhi-Qiang},
+	year = {2005},
+	pages = {273--287},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/TJRAKC24/S0031320304001372.html:text/html}
+}
+
+@inproceedings{chia_split_2008,
+	title = {A split and merge based ellipse detector},
+	booktitle = {2008 15th {IEEE} {International} {Conference} on {Image} {Processing}},
+	publisher = {IEEE},
+	author = {Chia, Alex YS and Rajan, Deepu and Leung, Maylor KH and Rahardja, Susanto},
+	year = {2008},
+	pages = {3212--3215},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/W488MCCA/4712479.html:text/html}
+}
+
+@article{yin_new_1999,
+	title = {A new circle/ellipse detector using genetic algorithms},
+	volume = {20},
+	number = {7},
+	journal = {Pattern Recognition Letters},
+	author = {Yin, Peng-Yeng},
+	year = {1999},
+	pages = {731--740},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/XIPRWETR/S0167865599000379.html:text/html}
+}
+
+@article{ho_fast_1995,
+	title = {A fast ellipse/circle detector using geometric symmetry},
+	volume = {28},
+	number = {1},
+	journal = {Pattern recognition},
+	author = {Ho, Chun-Ta and Chen, Ling-Hwei},
+	year = {1995},
+	pages = {117--124},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/5W7WVHK4/Ho and Chen - 1995 - A fast ellipsecircle detector using geometric sym.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/TWHKW67X/003132039400077Y.html:text/html}
+}
+
+@inproceedings{jiang_detection_2005,
+	title = {Detection of concentric circles for camera calibration},
+	volume = {1},
+	booktitle = {Tenth {IEEE} {International} {Conference} on {Computer} {Vision} ({ICCV}'05) {Volume} 1},
+	publisher = {IEEE},
+	author = {Jiang, Guang and Quan, Long},
+	year = {2005},
+	pages = {333--340},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/K7A8EBA4/1541275.html:text/html}
+}
+
+@article{kim_camera_2002,
+	title = {A camera calibration method using concentric circles for vision applications},
+	journal = {ACCV2002, Melbourne, Australia},
+	author = {Kim, Jun-Sik and Kim, Ho-Won and Kweon, In So},
+	year = {2002},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/G8WJ2Y2H/Kim et al. - 2002 - A camera calibration method using concentric circl.pdf:application/pdf}
+}
+
+@inproceedings{datta_accurate_2009,
+	title = {Accurate camera calibration using iterative refinement of control points},
+	booktitle = {2009 {IEEE} 12th {International} {Conference} on {Computer} {Vision} {Workshops}, {ICCV} {Workshops}},
+	publisher = {IEEE},
+	author = {Datta, Ankur and Kim, Jun-Sik and Kanade, Takeo},
+	year = {2009},
+	pages = {1201--1208},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/A4IGXEZI/5457474.html:text/html}
+}
+
+@inproceedings{abad_camera_2004,
+	title = {Camera calibration using two concentric circles},
+	booktitle = {International {Conference} {Image} {Analysis} and {Recognition}},
+	publisher = {Springer},
+	author = {Abad, Francisco and Camahort, Emilio and Vivó, Roberto},
+	year = {2004},
+	pages = {688--696},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/Y2ZCLKFV/Abad et al. - 2004 - Camera calibration using two concentric circles.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/3RK6MESR/978-3-540-30125-7_85.html:text/html}
+}
+
+@article{gold_new_1998,
+	title = {New algorithms for 2D and 3D point matching: {Pose} estimation and correspondence},
+	volume = {31},
+	shorttitle = {New algorithms for 2D and 3D point matching},
+	number = {8},
+	journal = {Pattern recognition},
+	author = {Gold, Steven and Rangarajan, Anand and Lu, Chien-Ping and Pappu, Suguna and Mjolsness, Eric},
+	year = {1998},
+	pages = {1019--1031},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/JFZCL499/Gold et al. - 1998 - New algorithms for 2D and 3D point matching Pose .pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/5Y9TZ5MM/S0031320398800101.html:text/html}
+}
+
+@inproceedings{ye_accurate_2011,
+	title = {Accurate 3d pose estimation from a single depth image},
+	booktitle = {2011 {International} {Conference} on {Computer} {Vision}},
+	publisher = {IEEE},
+	author = {Ye, Mao and Wang, Xianwang and Yang, Ruigang and Ren, Liu and Pollefeys, Marc},
+	year = {2011},
+	pages = {731--738},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/7V7K9VF6/Ye et al. - 2011 - Accurate 3d pose estimation from a single depth im.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/8U5CGSIP/6126310.html:text/html}
+}
+
+@inproceedings{savarese_3d_2007,
+	title = {3D generic object categorization, localization and pose estimation},
+	booktitle = {2007 {IEEE} 11th {International} {Conference} on {Computer} {Vision}},
+	publisher = {IEEE},
+	author = {Savarese, Silvio and Fei-Fei, Li},
+	year = {2007},
+	pages = {1--8},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/XWCSYNLT/4408987.html:text/html}
+}
+
+@inproceedings{segen_shadow_1999,
+	title = {Shadow gestures: 3D hand pose estimation using a single camera},
+	volume = {1},
+	shorttitle = {Shadow gestures},
+	booktitle = {Proceedings. 1999 {IEEE} {Computer} {Society} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({Cat}. {No} {PR}00149)},
+	publisher = {IEEE},
+	author = {Segen, Jakub and Kumar, Senthil},
+	year = {1999},
+	pages = {479--485},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/ZLUPAWYM/Segen and Kumar - 1999 - Shadow gestures 3D hand pose estimation using a s.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/PQ863BU4/786981.html:text/html}
+}
+@book{moeslund2014computer,
+  title={Computer vision in sports},
+  author={Moeslund, Thomas B and Thomas, Graham and Hilton, Adrian},
+  year={2014},
+  publisher={Springer}
+}
+@article{thomas2017computer,
+  title={Computer vision for sports: Current applications and research topics},
+  author={Thomas, Graham and Gade, Rikke and Moeslund, Thomas B and Carr, Peter and Hilton, Adrian},
+  journal={Computer Vision and Image Understanding},
+  volume={159},
+  pages={3--18},
+  year={2017},
+  publisher={Elsevier}
+}
+@inproceedings{needham2001tracking,
+  title={Tracking multiple sports players through occlusion, congestion and scale},
+  author={Needham, Chris J and Boyle, Roger D},
+  booktitle={BMVC},
+  volume={1},
+  pages={93--102},
+  year={2001}
+}
+
+@inproceedings{liu2013tracking,
+  title={Tracking sports players with context-conditioned motion models},
+  author={Liu, Jingchen and Carr, Peter and Collins, Robert T and Liu, Yanxi},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1830--1837},
+  year={2013}
+}
+
+@inproceedings{yu2005current,
+  title={Current and emerging topics in sports video processing},
+  author={Yu, Xinguo and Farin, Dirk},
+  booktitle={2005 IEEE International Conference on Multimedia and Expo},
+  pages={526--529},
+  year={2005},
+  organization={IEEE}
+}
+
+
+@inproceedings{gammulle2017two,
+  title={Two stream LSTM: a deep fusion framework for human action recognition},
+  author={Gammulle, Harshala and Denman, Simon and Sridharan, Sridha and Fookes, Clinton},
+  booktitle={2017 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={177--186},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{lee2016predicting,
+  title={Predicting wide receiver trajectories in american football},
+  author={Lee, Namhoon and Kitani, Kris M},
+  booktitle={2016 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1--9},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{einfalt2018activity,
+  title={Activity-conditioned continuous human pose estimation for performance analysis of athletes using the example of swimming},
+  author={Einfalt, Moritz and Zecha, Dan and Lienhart, Rainer},
+  booktitle={2018 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={446--455},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{carreira2016human,
+  title={Human pose estimation with iterative error feedback},
+  author={Carreira, Joao and Agrawal, Pulkit and Fragkiadaki, Katerina and Malik, Jitendra},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4733--4742},
+  year={2016}
+}
+
+@inproceedings{rafi2016efficient,
+  title={An Efficient Convolutional Network for Human Pose Estimation.},
+  author={Rafi, Umer and Leibe, Bastian and Gall, Juergen and Kostrikov, Ilya},
+  booktitle={BMVC},
+  volume={1},
+  pages={2},
+  year={2016}
+}
+
+@inproceedings{bogo2016keep,
+  title={Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image},
+  author={Bogo, Federica and Kanazawa, Angjoo and Lassner, Christoph and Gehler, Peter and Romero, Javier and Black, Michael J},
+  booktitle={European Conference on Computer Vision},
+  pages={561--578},
+  year={2016},
+  organization={Springer}
+}
+
+@inproceedings{johnson2010clustered,
+  title={Clustered Pose and Nonlinear Appearance Models for Human Pose Estimation.},
+  author={Johnson, Sam and Everingham, Mark},
+  booktitle={BMVC},
+  volume={2:4},
+  pages={5},
+  year={2010}
+}
+@inproceedings{chatzitofis2013three,
+  title={Three-dimensional monitoring of weightlifting for computer assisted training},
+  author={Chatzitofis, Anargyros and Vretos, Nicholas and Zarpalas, Dimitrios and Daras, Petros},
+  booktitle={Proceedings of the virtual reality international conference: Laval virtual},
+  pages={3},
+  year={2013},
+  organization={ACM}
+}
+
+@incollection{chatzitofis2018computerized,
+  title={A computerized system for real-time exercise performance monitoring and e-coaching using motion capture data},
+  author={Chatzitofis, Anargyros and Zarpalas, Dimitris and Daras, Petros},
+  booktitle={Precision Medicine Powered by pHealth and Connected Health},
+  pages={243--247},
+  year={2018},
+  publisher={Springer}
+}
+
+@article{brown2016fatigue,
+  title={Fatigue detection in strength training using three-dimensional accelerometry and principal component analysis},
+  author={Brown, Niklas and Bichler, Sebastian and Fiedler, Meike and Alt, Wilfried},
+  journal={Sports biomechanics},
+  volume={15},
+  number={2},
+  pages={139--150},
+  year={2016},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{parmar2017learning,
+  title={Learning to score olympic events},
+  author={Parmar, Paritosh and Tran Morris, Brendan},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={20--28},
+  year={2017}
+}
+
+@article{marcon2010structural,
+  title={Structural analysis of action and time in sports: judo},
+  author={Marcon, Giovani and Franchini, Emerson and Jardim, Jos{\'e} Roberto and Neto, Turibio Leite Barros},
+  journal={Journal of quantitative analysis in sports},
+  volume={6},
+  number={4},
+  year={2010},
+  publisher={De Gruyter}
+}
+
+@article{miarka2011objectivity,
+  title={Objectivity of FRAMI-software for judo match analysis},
+  author={Miarka, Bianca and Hayashida, Carlos Roberto and Julio, Ursula Ferreira and Calmet, Michel and Franchini, Emerson},
+  journal={International Journal of Performance Analysis in Sport},
+  volume={11},
+  number={2},
+  pages={254--266},
+  year={2011},
+  publisher={Taylor \& Francis}
+}
+
+@article{polak2016motion,
+  title={Motion analysis systems as optimization training tools in combat sports and martial arts},
+  author={Polak, Ewa and Kulasa, Jerzy and VencesBrito, Ant{\'o}nio and Castro, Maria Ant{\'o}nio and Fernandes, Orlando},
+  journal={Revista de Artes Marciales Asi{\'a}ticas},
+  volume={10},
+  number={2},
+  pages={105--123},
+  year={2016}
+}
+@inproceedings{wattanamongkhol2005method,
+  title={A method of glove tracking for amateur boxing refereeing},
+  author={Wattanamongkhol, Norrarat and Kumhom, Pinit and Chamnongthai, Kosin},
+  booktitle={IEEE International Symposium on Communications and Information Technology, 2005. ISCIT 2005.},
+  volume={1},
+  pages={6--9},
+  year={2005},
+  organization={IEEE}
+}
+@inproceedings{kasiri2015combat,
+  title={Combat sports analytics: Boxing punch classification using overhead depthimagery},
+  author={Kasiri-Bidhendi, Soudeh and Fookes, Clinton and Morgan, Stuart and Martin, David T and Sridharan, Sridha},
+  booktitle={2015 IEEE International Conference on Image Processing (ICIP)},
+  pages={4545--4549},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{kasiri2017fine,
+  title={Fine-grained action recognition of boxing punches from depth imagery},
+  author={Kasiri, Soudeh and Fookes, Clinton and Sridharan, Sridha and Morgan, Stuart},
+  journal={Computer Vision and Image Understanding},
+  volume={159},
+  pages={143--153},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{garrido2014automatic,
+  title={Automatic generation and detection of highly reliable fiducial markers under occlusion},
+  author={Garrido-Jurado, Sergio and Mu{\~n}oz-Salinas, Rafael and Madrid-Cuevas, Francisco Jos{\'e} and Mar{\'\i}n-Jim{\'e}nez, Manuel Jes{\'u}s},
+  journal={Pattern Recognition},
+  volume={47},
+  number={6},
+  pages={2280--2292},
+  year={2014},
+  publisher={Elsevier}
+}
+
+
+
+@article{danelljan_atom:_2018,
+	title = {{ATOM}: {Accurate} {Tracking} by {Overlap} {Maximization}},
+	shorttitle = {{ATOM}},
+	url = {http://arxiv.org/abs/1811.07628},
+	abstract = {While recent years have witnessed astonishing improvements in visual tracking robustness, the advancements in tracking accuracy have been limited. As the focus has been directed towards the development of powerful classifiers, the problem of accurate target state estimation has been largely overlooked. In fact, most trackers resort to a simple multi-scale search in order to estimate the target bounding box. We argue that this approach is fundamentally limited since target estimation is a complex task, requiring high-level knowledge about the object. We address this problem by proposing a novel tracking architecture, consisting of dedicated target estimation and classification components. High level knowledge is incorporated into the target estimation through extensive offline learning. Our target estimation component is trained to predict the overlap between the target object and an estimated bounding box. By carefully integrating target-specific information, our approach achieves previously unseen bounding box accuracy. We further introduce a classification component that is trained online to guarantee high discriminative power in the presence of distractors. Our final tracking framework sets a new state-of-the-art on five challenging benchmarks. On the new large-scale TrackingNet dataset, our tracker ATOM achieves a relative gain of 15\% over the previous best approach, while running at over 30 FPS. Code and models are available at https://github.com/visionml/pytracking.},
+	urldate = {2019-07-09},
+	journal = {arXiv:1811.07628 [cs]},
+	author = {Danelljan, Martin and Bhat, Goutam and Khan, Fahad Shahbaz and Felsberg, Michael},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.07628},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: CVPR 2019 (Oral). Complete code and models are available at https://github.com/visionml/pytracking},
+	file = {arXiv\:1811.07628 PDF:/Users/jonoschwan/Zotero/storage/NHXFC27X/Danelljan et al. - 2018 - ATOM Accurate Tracking by Overlap Maximization.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/PPRMKGK5/1811.html:text/html}
+}
+
+
+
+@article{he_mask_2017,
+	title = {Mask {R}-{CNN}},
+	url = {http://arxiv.org/abs/1703.06870},
+	abstract = {We present a conceptually simple, flexible, and general framework for object instance segmentation. Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, bounding-box object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners. We hope our simple and effective approach will serve as a solid baseline and help ease future research in instance-level recognition. Code has been made available at: https://github.com/facebookresearch/Detectron},
+	urldate = {2019-07-09},
+	journal = {arXiv:1703.06870 [cs]},
+	author = {He, Kaiming and Gkioxari, Georgia and Dollár, Piotr and Girshick, Ross},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.06870},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: open source; appendix on more results},
+	file = {arXiv\:1703.06870 PDF:/Users/jonoschwan/Zotero/storage/7GJ3N52L/He et al. - 2017 - Mask R-CNN.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/JXUEEGSB/1703.html:text/html}
+}
+
+
+@inproceedings{lukezic_discriminative_2017,
+	title = {Discriminative correlation filter with channel and spatial reliability},
+	booktitle = {Proceedings of the {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}},
+	author = {Lukezic, Alan and Vojir, Tomas and ˇCehovin Zajc, Luka and Matas, Jiri and Kristan, Matej},
+	year = {2017},
+	pages = {6309--6318},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/Z8BQHE4K/Lukezic et al. - 2017 - Discriminative correlation filter with channel and.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/ZKIJPW9U/Lukezic_Discriminative_Correlation_Filter_CVPR_2017_paper.html:text/html}
+}
+
+@article{romero-ramirez_speeded_2018,
+	title = {Speeded up detection of squared fiducial markers},
+	volume = {76},
+	journal = {Image and Vision Computing},
+	author = {Romero-Ramirez, Francisco J. and Muñoz-Salinas, Rafael and Medina-Carnicer, Rafael},
+	year = {2018},
+	pages = {38--47},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/AD8D9HX7/S0262885618300799.html:text/html}
+}
+
+@inproceedings{yadav_constant_2013,
+	title = {A constant gain {Kalman} filter approach to track maneuvering targets},
+	booktitle = {2013 {IEEE} {International} {Conference} on {Control} {Applications} ({CCA})},
+	publisher = {IEEE},
+	author = {Yadav, Ashwin and Awasthi, Peeyush and Naik, Naren and Ananthasayanam, M. R.},
+	year = {2013},
+	pages = {562--567},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/IDQKVGTI/6662809.html:text/html}
+}
+
+@inproceedings{fremont_direct_2002,
+	title = {Direct camera calibration using two concentric circles from a single view},
+	booktitle = {International {Conference} on {Artificial} {Reality} and {Telexistence}},
+	publisher = {Citeseer},
+	author = {Fremont, Vincent and Chellali, Ryad},
+	year = {2002},
+	pages = {93--98},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/P8YFUKXY/Fremont and Chellali - 2002 - Direct camera calibration using two concentric cir.pdf:application/pdf}
+}
+
+@article{fornaciari_fast_2014,
+	title = {A fast and effective ellipse detector for embedded vision applications},
+	volume = {47},
+	number = {11},
+	journal = {Pattern Recognition},
+	author = {Fornaciari, Michele and Prati, Andrea and Cucchiara, Rita},
+	year = {2014},
+	pages = {3693--3708},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/XCGNS64X/Fornaciari et al. - 2014 - A fast and effective ellipse detector for embedded.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/YTIEB2A8/S0031320314001976.html:text/html}
+}
+
+@inproceedings{basca_randomized_2005,
+	title = {Randomized hough transform for ellipse detection with result clustering},
+	volume = {2},
+	booktitle = {{EUROCON} 2005-{The} {International} {Conference} on" {Computer} as a {Tool}"},
+	publisher = {IEEE},
+	author = {Basca, Cosmin A. and Talos, Mihai and Brad, Remus},
+	year = {2005},
+	pages = {1397--1400},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/3AC8SI5Y/1630222.html:text/html}
+}
+
+@inproceedings{patraucean_parameterless_2012,
+	title = {A parameterless line segment and elliptical arc detector with enhanced ellipse fitting},
+	booktitle = {European {Conference} on {Computer} {Vision}},
+	publisher = {Springer},
+	author = {Pătrăucean, Viorica and Gurdjos, Pierre and Von Gioi, Rafael Grompone},
+	year = {2012},
+	pages = {572--585},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/WGA6DI96/Pătrăucean et al. - 2012 - A parameterless line segment and elliptical arc de.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/CSBPN4QR/978-3-642-33709-3_41.html:text/html}
+}
+
+@article{zhang_robust_2005,
+	title = {A robust, real-time ellipse detector},
+	volume = {38},
+	number = {2},
+	journal = {Pattern Recognition},
+	author = {Zhang, Si-Cheng and Liu, Zhi-Qiang},
+	year = {2005},
+	pages = {273--287},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/TJRAKC24/S0031320304001372.html:text/html}
+}
+
+@inproceedings{chia_split_2008,
+	title = {A split and merge based ellipse detector},
+	booktitle = {2008 15th {IEEE} {International} {Conference} on {Image} {Processing}},
+	publisher = {IEEE},
+	author = {Chia, Alex YS and Rajan, Deepu and Leung, Maylor KH and Rahardja, Susanto},
+	year = {2008},
+	pages = {3212--3215},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/W488MCCA/4712479.html:text/html}
+}
+
+@article{yin_new_1999,
+	title = {A new circle/ellipse detector using genetic algorithms},
+	volume = {20},
+	number = {7},
+	journal = {Pattern Recognition Letters},
+	author = {Yin, Peng-Yeng},
+	year = {1999},
+	pages = {731--740},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/XIPRWETR/S0167865599000379.html:text/html}
+}
+
+@article{ho_fast_1995,
+	title = {A fast ellipse/circle detector using geometric symmetry},
+	volume = {28},
+	number = {1},
+	journal = {Pattern recognition},
+	author = {Ho, Chun-Ta and Chen, Ling-Hwei},
+	year = {1995},
+	pages = {117--124},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/5W7WVHK4/Ho and Chen - 1995 - A fast ellipsecircle detector using geometric sym.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/TWHKW67X/003132039400077Y.html:text/html}
+}
+
+@inproceedings{jiang_detection_2005,
+	title = {Detection of concentric circles for camera calibration},
+	volume = {1},
+	booktitle = {Tenth {IEEE} {International} {Conference} on {Computer} {Vision} ({ICCV}'05) {Volume} 1},
+	publisher = {IEEE},
+	author = {Jiang, Guang and Quan, Long},
+	year = {2005},
+	pages = {333--340},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/K7A8EBA4/1541275.html:text/html}
+}
+
+@article{kim_camera_2002,
+	title = {A camera calibration method using concentric circles for vision applications},
+	journal = {ACCV2002, Melbourne, Australia},
+	author = {Kim, Jun-Sik and Kim, Ho-Won and Kweon, In So},
+	year = {2002},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/G8WJ2Y2H/Kim et al. - 2002 - A camera calibration method using concentric circl.pdf:application/pdf}
+}
+
+@inproceedings{datta_accurate_2009,
+	title = {Accurate camera calibration using iterative refinement of control points},
+	booktitle = {2009 {IEEE} 12th {International} {Conference} on {Computer} {Vision} {Workshops}, {ICCV} {Workshops}},
+	publisher = {IEEE},
+	author = {Datta, Ankur and Kim, Jun-Sik and Kanade, Takeo},
+	year = {2009},
+	pages = {1201--1208},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/A4IGXEZI/5457474.html:text/html}
+}
+
+@inproceedings{abad_camera_2004,
+	title = {Camera calibration using two concentric circles},
+	booktitle = {International {Conference} {Image} {Analysis} and {Recognition}},
+	publisher = {Springer},
+	author = {Abad, Francisco and Camahort, Emilio and Vivó, Roberto},
+	year = {2004},
+	pages = {688--696},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/Y2ZCLKFV/Abad et al. - 2004 - Camera calibration using two concentric circles.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/3RK6MESR/978-3-540-30125-7_85.html:text/html}
+}
+
+@article{gold_new_1998,
+	title = {New algorithms for 2D and 3D point matching: {Pose} estimation and correspondence},
+	volume = {31},
+	shorttitle = {New algorithms for 2D and 3D point matching},
+	number = {8},
+	journal = {Pattern recognition},
+	author = {Gold, Steven and Rangarajan, Anand and Lu, Chien-Ping and Pappu, Suguna and Mjolsness, Eric},
+	year = {1998},
+	pages = {1019--1031},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/JFZCL499/Gold et al. - 1998 - New algorithms for 2D and 3D point matching Pose .pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/5Y9TZ5MM/S0031320398800101.html:text/html}
+}
+
+@inproceedings{ye_accurate_2011,
+	title = {Accurate 3d pose estimation from a single depth image},
+	booktitle = {2011 {International} {Conference} on {Computer} {Vision}},
+	publisher = {IEEE},
+	author = {Ye, Mao and Wang, Xianwang and Yang, Ruigang and Ren, Liu and Pollefeys, Marc},
+	year = {2011},
+	pages = {731--738},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/7V7K9VF6/Ye et al. - 2011 - Accurate 3d pose estimation from a single depth im.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/8U5CGSIP/6126310.html:text/html}
+}
+
+@inproceedings{savarese_3d_2007,
+	title = {3D generic object categorization, localization and pose estimation},
+	booktitle = {2007 {IEEE} 11th {International} {Conference} on {Computer} {Vision}},
+	publisher = {IEEE},
+	author = {Savarese, Silvio and Fei-Fei, Li},
+	year = {2007},
+	pages = {1--8},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/XWCSYNLT/4408987.html:text/html}
+}
+
+@inproceedings{segen_shadow_1999,
+	title = {Shadow gestures: 3D hand pose estimation using a single camera},
+	volume = {1},
+	shorttitle = {Shadow gestures},
+	booktitle = {Proceedings. 1999 {IEEE} {Computer} {Society} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({Cat}. {No} {PR}00149)},
+	publisher = {IEEE},
+	author = {Segen, Jakub and Kumar, Senthil},
+	year = {1999},
+	pages = {479--485},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/ZLUPAWYM/Segen and Kumar - 1999 - Shadow gestures 3D hand pose estimation using a s.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/PQ863BU4/786981.html:text/html}
+}
+
+@article{hinedi_extended_1988,
+	title = {An extended {Kalman} filter based automatic frequency control loop},
+	author = {Hinedi, S.},
+	year = {1988},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/62TD7D7I/Hinedi - 1988 - An extended Kalman filter based automatic frequenc.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/BQ3HLV48/search.html:text/html}
+}
+
+@article{nakazawa_real-time_2003,
+	title = {Real-time algorithms for estimating jerk signals from noisy acceleration data},
+	volume = {18},
+	number = {1-3},
+	journal = {International Journal of Applied Electromagnetics and Mechanics},
+	author = {Nakazawa, Shin-ichi and Ishihara, Tadashi and Inooka, Hikaru},
+	year = {2003},
+	pages = {149--163},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/WYJQP9B4/jae00282.html:text/html}
+}
+
+@article{mahapatra_mixed_2000,
+	title = {Mixed coordinate tracking of generalized maneuvering targets using acceleration and jerk models},
+	volume = {36},
+	number = {3},
+	journal = {IEEE Transactions on Aerospace and Electronic Systems},
+	author = {Mahapatra, Pravas R. and Mehrotra, Kishore},
+	year = {2000},
+	pages = {992--1000},
+	file = {Full Text:/Users/jonoschwan/Zotero/storage/F4SJDQ2B/Mahapatra and Mehrotra - 2000 - Mixed coordinate tracking of generalized maneuveri.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/5AJY8GVK/869519.html:text/html}
+}
+
+@article{chen_temporally_2019,
+	title = {Temporally {Identity}-{Aware} {SSD} {With} {Attentional} {LSTM}},
+	issn = {2168-2267},
+	doi = {10.1109/TCYB.2019.2894261},
+	abstract = {Temporal object detection has attracted significant attention, but most popular detection methods cannot leverage rich temporal information in videos. Very recently, many algorithms have been developed for video detection task, yet very few approaches can achieve real-time online object detection in videos. In this paper, based on the attention mechanism and convolutional long short-term memory (ConvLSTM), we propose a temporal single-shot detector (TSSD) for real-world detection. Distinct from the previous methods, we take aim at temporally integrating pyramidal feature hierarchy using ConvLSTM, and design a novel structure, including a low-level temporal unit as well as a high-level one for multiscale feature maps. Moreover, we develop a creative temporal analysis unit, namely, attentional ConvLSTM, in which a temporal attention mechanism is specially tailored for background suppression and scale suppression, while a ConvLSTM integrates attention-aware features across time. An association loss and a multistep training are designed for temporal coherence. Besides, an online tubelet analysis (OTA) is exploited for identification. Our framework is evaluated on ImageNet VID dataset and 2DMOT15 dataset. Extensive comparisons on the detection and tracking capability validate the superiority of the proposed approach. Consequently, the developed TSSD-OTA achieves a fast speed and an overall competitive performance in terms of detection and tracking. Finally, a real-world maneuver is conducted for underwater object grasping.},
+	journal = {IEEE Transactions on Cybernetics},
+	author = {Chen, X. and Yu, J. and Wu, Z.},
+	year = {2019},
+	keywords = {Detectors, Feature extraction, Object detection, Proposals, Real-time systems, sequential learning, Task analysis, tracking-by-detection, video processing, Videos, Visualization},
+	pages = {1--13},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/SQSB8TGT/8638831.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/GWJVCTAB/Chen et al. - 2019 - Temporally Identity-Aware SSD With Attentional LST.pdf:application/pdf}
+}
+
+@article{bae_confidence-based_2018,
+	title = {Confidence-{Based} {Data} {Association} and {Discriminative} {Deep} {Appearance} {Learning} for {Robust} {Online} {Multi}-{Object} {Tracking}},
+	volume = {40},
+	issn = {0162-8828},
+	doi = {10.1109/TPAMI.2017.2691769},
+	abstract = {Online multi-object tracking aims at estimating the tracks of multiple objects instantly with each incoming frame and the information provided up to the moment. It still remains a difficult problem in complex scenes, because of the large ambiguity in associating multiple objects in consecutive frames and the low discriminability between objects appearances. In this paper, we propose a robust online multi-object tracking method that can handle these difficulties effectively. We first define the tracklet confidence using the detectability and continuity of a tracklet, and decompose a multi-object tracking problem into small subproblems based on the tracklet confidence. We then solve the online multi-object tracking problem by associating tracklets and detections in different ways according to their confidence values. Based on this strategy, tracklets sequentially grow with online-provided detections, and fragmented tracklets are linked up with others without any iterative and expensive association steps. For more reliable association between tracklets and detections, we also propose a deep appearance learning method to learn a discriminative appearance model from large training datasets, since the conventional appearance learning methods do not provide rich representation that can distinguish multiple objects with large appearance variations. In addition, we combine online transfer learning for improving appearance discriminability by adapting the pre-trained deep model during online tracking. Experiments with challenging public datasets show distinct performance improvement over other state-of-the-arts batch and online tracking methods, and prove the effect and usefulness of the proposed methods for online multi-object tracking.},
+	number = {3},
+	journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	author = {Bae, S. and Yoon, K.},
+	month = mar,
+	year = {2018},
+	keywords = {tracking-by-detection, Adaptation models, confidence-based data association, Confidence-based data association, deep appearance learning, discriminative deep appearance learning, iterative association steps, iterative methods, learning (artificial intelligence), Learning systems, Machine learning, Multi-object tracking, object tracking, online transfer learning, robust online multiobject tracking method, Robustness, sensor fusion, surveillance system, Target tracking, tracklet confidence, Trajectory},
+	pages = {595--610},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/29BNZLEB/metrics.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/GKSPH6DP/Bae and Yoon - 2018 - Confidence-Based Data Association and Discriminati.pdf:application/pdf}
+}
+
+@inproceedings{sadeghian_tracking_2017,
+	address = {Venice},
+	title = {Tracking the {Untrackable}: {Learning} to {Track} {Multiple} {Cues} with {Long}-{Term} {Dependencies}},
+	isbn = {978-1-5386-1032-9},
+	shorttitle = {Tracking the {Untrackable}},
+	url = {http://ieeexplore.ieee.org/document/8237303/},
+	doi = {10.1109/ICCV.2017.41},
+	abstract = {The majority of existing solutions to the Multi-Target Tracking (MTT) problem do not combine cues over a long period of time in a coherent fashion. In this paper, we present an online method that encodes long-term temporal dependencies across multiple cues. One key challenge of tracking methods is to accurately track occluded targets or those which share similar appearance properties with surrounding objects. To address this challenge, we present a structure of Recurrent Neural Networks (RNN) that jointly reasons on multiple cues over a temporal window. Our method allows to correct data association errors and recover observations from occluded states. We demonstrate the robustness of our data-driven approach by tracking multiple targets using their appearance, motion, and even interactions. Our method outperforms previous works on multiple publicly available datasets including the challenging MOT benchmark.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {2017 {IEEE} {International} {Conference} on {Computer} {Vision} ({ICCV})},
+	publisher = {IEEE},
+	author = {Sadeghian, Amir and Alahi, Alexandre and Savarese, Silvio},
+	month = oct,
+	year = {2017},
+	pages = {300--311},
+	file = {Sadeghian et al. - 2017 - Tracking the Untrackable Learning to Track Multip.pdf:/Users/jonoschwan/Zotero/storage/FS8W5S4Y/Sadeghian et al. - 2017 - Tracking the Untrackable Learning to Track Multip.pdf:application/pdf}
+}
+
+@misc{jiang_multiobject_2018,
+	type = {Research article},
+	title = {Multiobject {Tracking} in {Videos} {Based} on {LSTM} and {Deep} {Reinforcement} {Learning}},
+	url = {https://www.hindawi.com/journals/complexity/2018/4695890/},
+	abstract = {Multiple-object tracking is a challenging issue in the computer vision community. In this paper, we propose a multiobject tracking algorithm in videos based on long short-term memory (LSTM) and deep reinforcement learning. Firstly, the multiple objects are detected by the object detector YOLO V2. Secondly, the problem of single-object tracking is considered as a Markov decision process (MDP) since this setting provides a formal strategy to model an agent that makes sequence decisions. The single-object tracker is composed of a network that includes a CNN followed by an LSTM unit. Each tracker, regarded as an agent, is trained by utilizing deep reinforcement learning. Finally, we conduct a data association using LSTM for each frame between the results of the object detector and the results of single-object trackers. From the experimental results, we can see that our tracker achieves better performance than the other state-of-the-art methods. Multiple targets can be steadily tracked even when frequent occlusions, similar appearances, and scale changes happened.},
+	language = {en},
+	urldate = {2019-05-20},
+	journal = {Complexity},
+	author = {Jiang, Ming-xin and Deng, Chao and Pan, Zhi-geng and Wang, Lan-fang and Sun, Xing},
+	year = {2018},
+	doi = {10.1155/2018/4695890},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/WYF96EVA/Jiang et al. - 2018 - Multiobject Tracking in Videos Based on LSTM and D.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/E6HHNY78/4695890.html:application/xhtml+xml}
+}
+
+@misc{noauthor_milan_nodate,
+	title = {Milan},
+	url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14184/14304},
+	urldate = {2019-05-20},
+	file = {Milan:/Users/jonoschwan/Zotero/storage/8FW45CWK/14304.html:text/html}
+}
+
+@incollection{ferrari_multi-object_2018,
+	address = {Cham},
+	title = {Multi-object {Tracking} with {Neural} {Gating} {Using} {Bilinear} {LSTM}},
+	volume = {11212},
+	isbn = {978-3-030-01236-6 978-3-030-01237-3},
+	url = {http://link.springer.com/10.1007/978-3-030-01237-3_13},
+	abstract = {In recent deep online and near-online multi-object tracking approaches, a diﬃculty has been to incorporate long-term appearance models to eﬃciently score object tracks under severe occlusion and multiple missing detections. In this paper, we propose a novel recurrent network model, the Bilinear LSTM, in order to improve the learning of long-term appearance models via a recurrent network. Based on intuitions drawn from recursive least squares, Bilinear LSTM stores building blocks of a linear predictor in its memory, which is then coupled with the input in a multiplicative manner, instead of the additive coupling in conventional LSTM approaches. Such coupling resembles an online learned classiﬁer/regressor at each time step, which we have found to improve performances in using LSTM for appearance modeling. We also propose novel data augmentation approaches to eﬃciently train recurrent models that score object tracks on both appearance and motion. We train an LSTM that can score object tracks based on both appearance and motion and utilize it in a multiple hypothesis tracking framework. In experiments, we show that with our novel LSTM model, we achieved state-of-the-art performance on near-online multiple object tracking on the MOT 2016 and MOT 2017 benchmarks.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {Computer {Vision} – {ECCV} 2018},
+	publisher = {Springer International Publishing},
+	author = {Kim, Chanho and Li, Fuxin and Rehg, James M.},
+	editor = {Ferrari, Vittorio and Hebert, Martial and Sminchisescu, Cristian and Weiss, Yair},
+	year = {2018},
+	doi = {10.1007/978-3-030-01237-3_13},
+	pages = {208--224},
+	file = {Kim et al. - 2018 - Multi-object Tracking with Neural Gating Using Bil.pdf:/Users/jonoschwan/Zotero/storage/WMB23ABA/Kim et al. - 2018 - Multi-object Tracking with Neural Gating Using Bil.pdf:application/pdf}
+}
+
+@inproceedings{milan_online_2017,
+	title = {Online {Multi}-{Target} {Tracking} {Using} {Recurrent} {Neural} {Networks}},
+	copyright = {Authors who publish a paper in this conference agree to the following terms:   Author(s) agree to transfer their copyrights in their article/paper to the Association for the Advancement of Artificial Intelligence (AAAI), in order to deal with future requests for reprints, translations, anthologies, reproductions, excerpts, and other publications. This grant will include, without limitation, the entire copyright in the article/paper in all countries of the world, including all renewals, extensions, and reversions thereof, whether such rights current exist or hereafter come into effect, and also the exclusive right to create electronic versions of the article/paper, to the extent that such right is not subsumed under copyright.  The author(s) warrants that they are the sole author and owner of the copyright in the above article/paper, except for those portions shown to be in quotations; that the article/paper is original throughout; and that the undersigned right to make the grants set forth above is complete and unencumbered.  The author(s) agree that if anyone brings any claim or action alleging facts that, if true, constitute a breach of any of the foregoing warranties, the author(s) will hold harmless and indemnify AAAI, their grantees, their licensees, and their distributors against any liability, whether under judgment, decree, or compromise, and any legal fees and expenses arising out of that claim or actions, and the undersigned will cooperate fully in any defense AAAI may make to such claim or action. Moreover, the undersigned agrees to cooperate in any claim or other action seeking to protect or enforce any right the undersigned has granted to AAAI in the article/paper. If any such claim or action fails because of facts that constitute a breach of any of the foregoing warranties, the undersigned agrees to reimburse whomever brings such claim or action for expenses and attorneys’ fees incurred therein.  Author(s) retain all proprietary rights other than copyright (such as patent rights).  Author(s) may make personal reuse of all or portions of the above article/paper in other works of their own authorship.  Author(s) may reproduce, or have reproduced, their article/paper for the author’s personal use, or for company use provided that AAAI copyright and the source are indicated, and that the copies are not used in a way that implies AAAI endorsement of a product or service of an employer, and that the copies per se are not offered for sale. The foregoing right shall not permit the posting of the article/paper in electronic or digital form on any computer network, except by the author or the author’s employer, and then only on the author’s or the employer’s own web page or ftp site. Such web page or ftp site, in addition to the aforementioned requirements of this Paragraph, must provide an electronic reference or link back to the AAAI electronic server, and shall not post other AAAI copyrighted materials not of the author’s or the employer’s creation (including tables of contents with links to other papers) without AAAI’s written permission.  Author(s) may make limited distribution of all or portions of their article/paper prior to publication.  In the case of work performed under U.S. Government contract, AAAI grants the U.S. Government royalty-free permission to reproduce all or portions of the above article/paper, and to authorize others to do so, for U.S. Government purposes.  In the event the above article/paper is not accepted and published by AAAI, or is withdrawn by the author(s) before acceptance by AAAI, this agreement becomes null and void.},
+	url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14184},
+	abstract = {We present a novel approach to online multi-target tracking based on recurrent neural networks (RNNs). Tracking multiple objects in real-world scenes involves many challenges, including a) an a-priori unknown and time-varying number of targets, b) a continuous state estimation of all present targets, and c) a discrete combinatorial problem of data association. Most previous methods involve complex models that require tedious tuning of parameters. Here, we propose for the first time, an end-to-end learning approach for online multi-target tracking. Existing deep learning methods are not designed for the above challenges and cannot be trivially applied to the task. Our solution addresses all of the above points in a principled way. Experiments on both synthetic and real data show promising results obtained at {\textasciitilde}300 Hz on a standard CPU, and pave the way towards future research in this direction.},
+	language = {en},
+	urldate = {2019-05-20},
+	booktitle = {Thirty-{First} {AAAI} {Conference} on {Artificial} {Intelligence}},
+	author = {Milan, Anton and Rezatofighi, S. Hamid and Dick, Anthony and Reid, Ian and Schindler, Konrad},
+	month = feb,
+	year = {2017},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/MVNR8W7X/Milan et al. - 2017 - Online Multi-Target Tracking Using Recurrent Neura.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/25ZGZ7US/14184.html:text/html}
+}
+
+@inproceedings{alahi_social_2016,
+	title = {Social {LSTM}: {Human} {Trajectory} {Prediction} in {Crowded} {Spaces}},
+	shorttitle = {Social {LSTM}},
+	url = {http://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html},
+	urldate = {2019-05-20},
+	author = {Alahi, Alexandre and Goel, Kratarth and Ramanathan, Vignesh and Robicquet, Alexandre and Fei-Fei, Li and Savarese, Silvio},
+	year = {2016},
+	pages = {961--971},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/5ADY364Z/Alahi et al. - 2016 - Social LSTM Human Trajectory Prediction in Crowde.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/V8SBK2CT/Alahi_Social_LSTM_Human_CVPR_2016_paper.html:text/html}
+}
+
+@article{wang_trajectory_2017,
+	title = {Trajectory {Predictor} by {Using} {Recurrent} {Neural} {Networks} in {Visual} {Tracking}},
+	volume = {47},
+	issn = {2168-2267},
+	doi = {10.1109/TCYB.2017.2705345},
+	abstract = {Motion models have been proved to be a crucial part in the visual tracking process. In recent trackers, particle filter and sliding windows-based motion models have been widely used. Treating motion models as a sequence prediction problem, we can estimate the motion of objects using their trajectories. Moreover, it is possible to transfer the learned knowledge from annotated trajectories to new objects. Inspired by recent advance in deep learning for visual feature extraction and sequence prediction, we propose a trajectory predictor to learn prior knowledge from annotated trajectories and transfer it to predict the motion of target objects. In this predictor, convolutional neural networks extract the visual features of target objects. Long short-term memory model leverages the annotated trajectory priors as well as sequential visual information, which includes the tracked features and center locations of the target object, to predict the motion. Furthermore, to extend this method to videos in which it is difficult to obtain annotated trajectories, a dynamic weighted motion model that combines the proposed trajectory predictor with a random sampler is proposed. To evaluate the transfer performance of the proposed trajectory predictor, we annotated a real-world vehicle dataset. Experiment results on both this real-world vehicle dataset and an online tracker benchmark dataset indicate that the proposed method outperforms several state-of-the-art trackers.},
+	number = {10},
+	journal = {IEEE Transactions on Cybernetics},
+	author = {Wang, L. and Zhang, L. and Yi, Z.},
+	month = oct,
+	year = {2017},
+	keywords = {Feature extraction, Videos, Visualization, learning (artificial intelligence), Target tracking, Trajectory, Computer Simulation, Convolutional neural networks (CNNs), deep learning, feature extraction, Humans, Image Processing, Computer-Assisted, long short-term memory model, Machine Learning, Neural Networks (Computer), particle filter, particle filtering (numerical methods), Predictive models, real-world vehicle dataset, recurrent neural nets, recurrent neural networks, recurrent neural networks (RNNs), sequence prediction, sliding windows-based motion models, target tracking, trajectory prediction, trajectory predictor, Video Recording, visual feature extraction, visual tracking},
+	pages = {3172--3183},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/X4ITDCD8/7935541.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/FA2CU9SU/Wang et al. - 2017 - Trajectory Predictor by Using Recurrent Neural Net.pdf:application/pdf}
+}
+
+@inproceedings{lu_online_2017,
+	title = {Online {Video} {Object} {Detection} {Using} {Association} {LSTM}},
+	url = {http://openaccess.thecvf.com/content_iccv_2017/html/Lu__Online_Video_ICCV_2017_paper.html},
+	urldate = {2019-05-20},
+	author = {Lu, Yongyi and Lu, Cewu and Tang, Chi-Keung},
+	year = {2017},
+	pages = {2344--2352},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/W8JU3D3V/Lu et al. - 2017 - Online Video Object Detection Using Association LS.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/J6WV6G6J/Lu__Online_Video_ICCV_2017_paper.html:text/html}
+}
+
+@inproceedings{coskun_long_2017,
+	title = {Long {Short}-{Term} {Memory} {Kalman} {Filters}: {Recurrent} {Neural} {Estimators} for {Pose} {Regularization}},
+	shorttitle = {Long {Short}-{Term} {Memory} {Kalman} {Filters}},
+	url = {http://openaccess.thecvf.com/content_iccv_2017/html/Coskun_Long_Short-Term_Memory_ICCV_2017_paper.html},
+	urldate = {2019-05-20},
+	author = {Coskun, Huseyin and Achilles, Felix and DiPietro, Robert and Navab, Nassir and Tombari, Federico},
+	year = {2017},
+	pages = {5524--5532},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/K2QWV2UD/Coskun et al. - 2017 - Long Short-Term Memory Kalman Filters Recurrent N.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/H7FU3IRS/Coskun_Long_Short-Term_Memory_ICCV_2017_paper.html:text/html}
+}
+
+@inproceedings{ning_spatially_2017,
+	title = {Spatially supervised recurrent convolutional neural networks for visual object tracking},
+	doi = {10.1109/ISCAS.2017.8050867},
+	abstract = {In this paper, we develop a new approach of spatially supervised recurrent convolutional neural networks for visual object tracking. Our recurrent convolutional network exploits the history of locations as well as the distinctive visual features learned by the deep neural networks. Inspired by recent bounding box regression methods for object detection, we study the regression capability of Long Short-Term Memory (LSTM) in the temporal domain, and propose to concatenate high-level visual features produced by convolutional networks with region information. In contrast to existing deep learning based trackers that use binary classification for region candidates, we use regression for direct prediction of the tracking locations both at the convolutional layer and at the recurrent unit. Our experimental results on challenging benchmark video tracking datasets show that our tracker is competitive with state-of-the-art approaches while maintaining low computational cost.},
+	booktitle = {2017 {IEEE} {International} {Symposium} on {Circuits} and {Systems} ({ISCAS})},
+	author = {Ning, G. and Zhang, Z. and Huang, C. and Ren, X. and Wang, H. and Cai, C. and He, Z.},
+	month = may,
+	year = {2017},
+	keywords = {Feature extraction, Visualization, object tracking, Target tracking, feature extraction, recurrent neural nets, benchmark video tracking datasets, binary classification, bounding box regression methods, deep learning based trackers, deep neural networks, distinctive visual features, Heating systems, high-level visual features, image classification, long short-term memory, LSTM, Neural networks, object detection, Object tracking, regression analysis, spatially supervised recurrent convolutional neural networks, temporal domain, Training, visual object tracking},
+	pages = {1--4},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/FP8MPF5H/8050867.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/7YD587RL/Ning et al. - 2017 - Spatially supervised recurrent convolutional neura.pdf:application/pdf}
+}
+
+@article{perez-ortiz_kalman_2003,
+	title = {Kalman filters improve {LSTM} network performance in problems unsolvable by traditional recurrent nets},
+	volume = {16},
+	issn = {0893-6080},
+	url = {http://www.sciencedirect.com/science/article/pii/S0893608002002198},
+	doi = {10.1016/S0893-6080(02)00219-8},
+	abstract = {The long short-term memory (LSTM) network trained by gradient descent solves difficult problems which traditional recurrent neural networks in general cannot. We have recently observed that the decoupled extended Kalman filter training algorithm allows for even better performance, reducing significantly the number of training steps when compared to the original gradient descent training algorithm. In this paper we present a set of experiments which are unsolvable by classical recurrent networks but which are solved elegantly and robustly and quickly by LSTM combined with Kalman filters.},
+	number = {2},
+	urldate = {2019-05-20},
+	journal = {Neural Networks},
+	author = {Pérez-Ortiz, Juan Antonio and Gers, Felix A. and Eck, Douglas and Schmidhuber, Jürgen},
+	month = mar,
+	year = {2003},
+	keywords = {Context sensitive language inference, Decoupled extended Kalman filter, Long short-term memory, Online prediction, Recurrent neural networks},
+	pages = {241--250},
+	file = {ScienceDirect Full Text PDF:/Users/jonoschwan/Zotero/storage/M6TGIVYX/Pérez-Ortiz et al. - 2003 - Kalman filters improve LSTM network performance in.pdf:application/pdf;ScienceDirect Snapshot:/Users/jonoschwan/Zotero/storage/IF85G8DE/S0893608002002198.html:text/html}
+}
+
+@inproceedings{liu_research_2007,
+	title = {Research of the {Improved} {Camshift} {Tracking} {Algorithm}},
+	doi = {10.1109/ICMA.2007.4303678},
+	abstract = {In this paper it will introduce the improved Camshift algorithm based on the Kalman filter, which is applied to track a moving target. Improved Camshift algorithm is a algorithm that H, S and V components space is used to track a moving target in HSV space. The next position of the moving object is estimated by the Kalman. According to H and S and V, it can be appropriate to determine the track of moving target. The algorithm effectively overcomes the shortcoming of the traditional Camshift algorithm. For example, it is easy to solve the divergence problem during the tracking. Finally, the usefulness of algorithm is validated by experiment.},
+	booktitle = {2007 {International} {Conference} on {Mechatronics} and {Automation}},
+	author = {Liu, X. and Chu, H. and Li, P.},
+	month = aug,
+	year = {2007},
+	keywords = {Target tracking, Predictive models, target tracking, Automation, Camshift algorithm, Camshift tracking algorithm, Computer science, divergence problem, Educational institutions, filtering theory, HSV space, Image processing, Kalman filter, Kalman filters, Mechatronics, Moving target, Noise measurement, Space technology},
+	pages = {968--972},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/J5D2TPT5/4303678.html:text/html}
+}
+
+@inproceedings{liu_research_2007-1,
+	title = {Research of the {Improved} {Camshift} {Tracking} {Algorithm}},
+	doi = {10.1109/ICMA.2007.4303678},
+	abstract = {In this paper it will introduce the improved Camshift algorithm based on the Kalman filter, which is applied to track a moving target. Improved Camshift algorithm is a algorithm that H, S and V components space is used to track a moving target in HSV space. The next position of the moving object is estimated by the Kalman. According to H and S and V, it can be appropriate to determine the track of moving target. The algorithm effectively overcomes the shortcoming of the traditional Camshift algorithm. For example, it is easy to solve the divergence problem during the tracking. Finally, the usefulness of algorithm is validated by experiment.},
+	booktitle = {2007 {International} {Conference} on {Mechatronics} and {Automation}},
+	author = {Liu, X. and Chu, H. and Li, P.},
+	month = aug,
+	year = {2007},
+	keywords = {Target tracking, Predictive models, target tracking, Automation, Camshift algorithm, Camshift tracking algorithm, Computer science, divergence problem, Educational institutions, filtering theory, HSV space, Image processing, Kalman filter, Kalman filters, Mechatronics, Moving target, Noise measurement, Space technology},
+	pages = {968--972},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/7BTFKVQV/4303678.html:text/html}
+}
+
+@article{ning_spatially_2016,
+	title = {Spatially {Supervised} {Recurrent} {Convolutional} {Neural} {Networks} for {Visual} {Object} {Tracking}},
+	url = {http://arxiv.org/abs/1607.05781},
+	abstract = {In this paper, we develop a new approach of spatially supervised recurrent convolutional neural networks for visual object tracking. Our recurrent convolutional network exploits the history of locations as well as the distinctive visual features learned by the deep neural networks. Inspired by recent bounding box regression methods for object detection, we study the regression capability of Long Short-Term Memory (LSTM) in the temporal domain, and propose to concatenate high-level visual features produced by convolutional networks with region information. In contrast to existing deep learning based trackers that use binary classification for region candidates, we use regression for direct prediction of the tracking locations both at the convolutional layer and at the recurrent unit. Our extensive experimental results and performance comparison with state-of-the-art tracking methods on challenging benchmark video tracking datasets shows that our tracker is more accurate and robust while maintaining low computational cost. For most test video sequences, our method achieves the best tracking performance, often outperforms the second best by a large margin.},
+	urldate = {2019-06-11},
+	journal = {arXiv:1607.05781 [cs]},
+	author = {Ning, Guanghan and Zhang, Zhi and Huang, Chen and He, Zhihai and Ren, Xiaobo and Wang, Haohong},
+	month = jul,
+	year = {2016},
+	note = {arXiv: 1607.05781},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: 10 pages, 9 figures, conference},
+	file = {arXiv\:1607.05781 PDF:/Users/jonoschwan/Zotero/storage/VBK8GJ4W/Ning et al. - 2016 - Spatially Supervised Recurrent Convolutional Neura.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/4NMXFHTW/1607.html:text/html}
+}
+
+@article{fang_track-rnn:_nodate,
+	title = {Track-{RNN}: {Joint} {Detection} and {Tracking} {Using} {Recurrent} {Neural} {Networks}},
+	abstract = {As deep neural networks revolutionize many fundamental computer vision problems, there have not been many works using neural networks to track objects. In this project, we design and implement a tracking pipeline using convolutional neural networks and recurrent neural networks. Our model can handle detection and tracking jointly using appearance and motion features. We use MOT data challenge as a highly occluded single object tracking dataset. We demonstrate good qualitative and quantitative results of our model and discuss how to extend the pipeline to multi-object tracking.},
+	language = {en},
+	author = {Fang, Kuan},
+	pages = {8},
+	file = {Fang - Track-RNN Joint Detection and Tracking Using Recu.pdf:/Users/jonoschwan/Zotero/storage/FV5B6AAP/Fang - Track-RNN Joint Detection and Tracking Using Recu.pdf:application/pdf}
+}
+
+@article{feichtenhofer_detect_2017,
+	title = {Detect to {Track} and {Track} to {Detect}},
+	url = {http://arxiv.org/abs/1710.03958},
+	abstract = {Recent approaches for high accuracy detection and tracking of object categories in video consist of complex multistage solutions that become more cumbersome each year. In this paper we propose a ConvNet architecture that jointly performs detection and tracking, solving the task in a simple and effective way. Our contributions are threefold: (i) we set up a ConvNet architecture for simultaneous detection and tracking, using a multi-task objective for frame-based object detection and across-frame track regression; (ii) we introduce correlation features that represent object co-occurrences across time to aid the ConvNet during tracking; and (iii) we link the frame level detections based on our across-frame tracklets to produce high accuracy detections at the video level. Our ConvNet architecture for spatiotemporal object detection is evaluated on the large-scale ImageNet VID dataset where it achieves state-of-the-art results. Our approach provides better single model performance than the winning method of the last ImageNet challenge while being conceptually much simpler. Finally, we show that by increasing the temporal stride we can dramatically increase the tracker speed.},
+	urldate = {2019-06-11},
+	journal = {arXiv:1710.03958 [cs]},
+	author = {Feichtenhofer, Christoph and Pinz, Axel and Zisserman, Andrew},
+	month = oct,
+	year = {2017},
+	note = {arXiv: 1710.03958},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: ICCV 2017. Code and models: https://github.com/feichtenhofer/Detect-Track Results: https://www.robots.ox.ac.uk/{\textasciitilde}vgg/research/detect-track/},
+	file = {arXiv\:1710.03958 PDF:/Users/jonoschwan/Zotero/storage/BX2KPAQ9/Feichtenhofer et al. - 2017 - Detect to Track and Track to Detect.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/RB7JC9FT/1710.html:text/html}
+}
+
+@article{milan_mot16:_2016,
+	title = {{MOT}16: {A} {Benchmark} for {Multi}-{Object} {Tracking}},
+	shorttitle = {{MOT}16},
+	url = {http://arxiv.org/abs/1603.00831},
+	abstract = {Standardized benchmarks are crucial for the majority of computer vision applications. Although leaderboards and ranking tables should not be over-claimed, benchmarks often provide the most objective measure of performance and are therefore important guides for reseach. Recently, a new benchmark for Multiple Object Tracking, MOTChallenge, was launched with the goal of collecting existing and new data and creating a framework for the standardized evaluation of multiple object tracking methods. The first release of the benchmark focuses on multiple people tracking, since pedestrians are by far the most studied object in the tracking community. This paper accompanies a new release of the MOTChallenge benchmark. Unlike the initial release, all videos of MOT16 have been carefully annotated following a consistent protocol. Moreover, it not only offers a significant increase in the number of labeled boxes, but also provides multiple object classes beside pedestrians and the level of visibility for every single object of interest.},
+	urldate = {2019-06-12},
+	journal = {arXiv:1603.00831 [cs]},
+	author = {Milan, Anton and Leal-Taixe, Laura and Reid, Ian and Roth, Stefan and Schindler, Konrad},
+	month = mar,
+	year = {2016},
+	note = {arXiv: 1603.00831},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: arXiv admin note: substantial text overlap with arXiv:1504.01942},
+	file = {arXiv\:1603.00831 PDF:/Users/jonoschwan/Zotero/storage/VUEWBDTM/Milan et al. - 2016 - MOT16 A Benchmark for Multi-Object Tracking.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/NIWHH7HW/1603.html:text/html}
+}
+
+@article{milan_mot16:_2016-1,
+	title = {{MOT}16: {A} {Benchmark} for {Multi}-{Object} {Tracking}},
+	shorttitle = {{MOT}16},
+	url = {http://arxiv.org/abs/1603.00831},
+	abstract = {Standardized benchmarks are crucial for the majority of computer vision applications. Although leaderboards and ranking tables should not be over-claimed, benchmarks often provide the most objective measure of performance and are therefore important guides for reseach. Recently, a new benchmark for Multiple Object Tracking, MOTChallenge, was launched with the goal of collecting existing and new data and creating a framework for the standardized evaluation of multiple object tracking methods. The first release of the benchmark focuses on multiple people tracking, since pedestrians are by far the most studied object in the tracking community. This paper accompanies a new release of the MOTChallenge benchmark. Unlike the initial release, all videos of MOT16 have been carefully annotated following a consistent protocol. Moreover, it not only offers a significant increase in the number of labeled boxes, but also provides multiple object classes beside pedestrians and the level of visibility for every single object of interest.},
+	urldate = {2019-06-12},
+	journal = {arXiv:1603.00831 [cs]},
+	author = {Milan, Anton and Leal-Taixe, Laura and Reid, Ian and Roth, Stefan and Schindler, Konrad},
+	month = mar,
+	year = {2016},
+	note = {arXiv: 1603.00831},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: arXiv admin note: substantial text overlap with arXiv:1504.01942},
+	file = {arXiv\:1603.00831 PDF:/Users/jonoschwan/Zotero/storage/VR8MT3BM/Milan et al. - 2016 - MOT16 A Benchmark for Multi-Object Tracking.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/ZLJIIVCF/1603.html:text/html}
+}
+
+@article{danelljan_atom:_2018,
+	title = {{ATOM}: {Accurate} {Tracking} by {Overlap} {Maximization}},
+	shorttitle = {{ATOM}},
+	url = {http://arxiv.org/abs/1811.07628},
+	abstract = {While recent years have witnessed astonishing improvements in visual tracking robustness, the advancements in tracking accuracy have been limited. As the focus has been directed towards the development of powerful classifiers, the problem of accurate target state estimation has been largely overlooked. In fact, most trackers resort to a simple multi-scale search in order to estimate the target bounding box. We argue that this approach is fundamentally limited since target estimation is a complex task, requiring high-level knowledge about the object. We address this problem by proposing a novel tracking architecture, consisting of dedicated target estimation and classification components. High level knowledge is incorporated into the target estimation through extensive offline learning. Our target estimation component is trained to predict the overlap between the target object and an estimated bounding box. By carefully integrating target-specific information, our approach achieves previously unseen bounding box accuracy. We further introduce a classification component that is trained online to guarantee high discriminative power in the presence of distractors. Our final tracking framework sets a new state-of-the-art on five challenging benchmarks. On the new large-scale TrackingNet dataset, our tracker ATOM achieves a relative gain of 15\% over the previous best approach, while running at over 30 FPS. Code and models are available at https://github.com/visionml/pytracking.},
+	urldate = {2019-07-09},
+	journal = {arXiv:1811.07628 [cs]},
+	author = {Danelljan, Martin and Bhat, Goutam and Khan, Fahad Shahbaz and Felsberg, Michael},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.07628},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: CVPR 2019 (Oral). Complete code and models are available at https://github.com/visionml/pytracking},
+	file = {arXiv\:1811.07628 PDF:/Users/jonoschwan/Zotero/storage/NHXFC27X/Danelljan et al. - 2018 - ATOM Accurate Tracking by Overlap Maximization.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/PPRMKGK5/1811.html:text/html}
+}
+
+@article{he_mask_2017,
+	title = {Mask {R}-{CNN}},
+	url = {http://arxiv.org/abs/1703.06870},
+	abstract = {We present a conceptually simple, flexible, and general framework for object instance segmentation. Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, bounding-box object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners. We hope our simple and effective approach will serve as a solid baseline and help ease future research in instance-level recognition. Code has been made available at: https://github.com/facebookresearch/Detectron},
+	urldate = {2019-07-09},
+	journal = {arXiv:1703.06870 [cs]},
+	author = {He, Kaiming and Gkioxari, Georgia and Dollár, Piotr and Girshick, Ross},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.06870},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: open source; appendix on more results},
+	file = {arXiv\:1703.06870 PDF:/Users/jonoschwan/Zotero/storage/7GJ3N52L/He et al. - 2017 - Mask R-CNN.pdf:application/pdf;arXiv.org Snapshot:/Users/jonoschwan/Zotero/storage/JXUEEGSB/1703.html:text/html}
+}
+
+@inproceedings{anguita_public_2013,
+	title = {A {Public} {Domain} {Dataset} for {Human} {Activity} {Recognition} using {Smartphones}},
+	abstract = {Human-centered computing is an emerging research field that aims to understand human behavior and integrate users and their social context with computer systems. One of the most recent, challenging and appealing applications in this framework consists in sensing human body motion using smartphones to gather context information about people actions. In this context, we describe in this work an Activity Recognition database, built from the recordings of 30 subjects doing Activities of Daily Living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors, which is released to public domain on a well-known on-line repository. Results, obtained on the dataset by exploiting a multiclass Support Vector 
+Machine (SVM), are also acknowledged.},
+	booktitle = {{ESANN}},
+	author = {Anguita, Davide and Ghio, Alessandro and Oneto, Luca and Parra, Xavier and Reyes-Ortiz, Jorge Luis},
+	year = {2013},
+	keywords = {Activity recognition, Embedded system, Human-centered computing, Online and offline, Sensor, Smartphone, Support vector machine},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/R9NBZH8M/Anguita et al. - 2013 - A Public Domain Dataset for Human Activity Recogni.pdf:application/pdf}
+}
+
+@inproceedings{mayer_large_2016,
+	title = {A {Large} {Dataset} to {Train} {Convolutional} {Networks} for {Disparity}, {Optical} {Flow}, and {Scene} {Flow} {Estimation}},
+	url = {http://openaccess.thecvf.com/content_cvpr_2016/html/Mayer_A_Large_Dataset_CVPR_2016_paper.html},
+	urldate = {2019-07-10},
+	author = {Mayer, Nikolaus and Ilg, Eddy and Hausser, Philip and Fischer, Philipp and Cremers, Daniel and Dosovitskiy, Alexey and Brox, Thomas},
+	year = {2016},
+	pages = {4040--4048},
+	file = {Full Text PDF:/Users/jonoschwan/Zotero/storage/88XQ9S7M/Mayer et al. - 2016 - A Large Dataset to Train Convolutional Networks fo.pdf:application/pdf;Snapshot:/Users/jonoschwan/Zotero/storage/V9ESXH8S/Mayer_A_Large_Dataset_CVPR_2016_paper.html:text/html}
+}
+
+@inproceedings{billette_2004_2005,
+	title = {The 2004 {BP} {Velocity} {Benchmark}},
+	url = {http://www.earthdoc.org/publication/publicationdetails/?publication=1404},
+	abstract = {B035 The 2004 BP Velocity Benchmark Abstract 1 In 2004 BP conducted a 2D velocity model estimation benchmark study. The study was open to all interested parties and was constructed as a blind test of available velocity model estimation/building techniques. The test was based on a 2D synthetic (finite-difference) dataset generated by BP which was made available to the interested parties. After receiving the data the participating groups were offered to present their results at the 2004 EAGE workshop and/or provide the results to BP to partake in the overall evaluation. In this paper we will present the model used},
+	language = {English},
+	urldate = {2019-07-10},
+	author = {Billette, F. J. and Brandsberg-Dahl, S.},
+	month = jun,
+	year = {2005},
+	file = {Snapshot:/Users/jonoschwan/Zotero/storage/37JLUJ6Q/publicationdetails.html:text/html}
+}
+
+@inproceedings{chen_utd-mhad:_2015,
+	title = {{UTD}-{MHAD}: {A} multimodal dataset for human action recognition utilizing a depth camera and a wearable inertial sensor},
+	shorttitle = {{UTD}-{MHAD}},
+	doi = {10.1109/ICIP.2015.7350781},
+	abstract = {Human action recognition has a wide range of applications including biometrics, surveillance, and human computer interaction. The use of multimodal sensors for human action recognition is steadily increasing. However, there are limited publicly available datasets where depth camera and inertial sensor data are captured at the same time. This paper describes a freely available dataset, named UTD-MHAD, which consists of four temporally synchronized data modalities. These modalities include RGB videos, depth videos, skeleton positions, and inertial signals from a Kinect camera and a wearable inertial sensor for a comprehensive set of 27 human actions. Experimental results are provided to show how this database can be used to study fusion approaches that involve using both depth camera data and inertial sensor data. This public domain dataset is of benefit to multimodality research activities being conducted for human action recognition by various research groups.},
+	booktitle = {2015 {IEEE} {International} {Conference} on {Image} {Processing} ({ICIP})},
+	author = {Chen, C. and Jafari, R. and Kehtarnavaz, N.},
+	month = sep,
+	year = {2015},
+	keywords = {Accelerometers, Biomedical monitoring, biometrics, Cameras, depth camera data, depth videos, fusion approaches, fusion of depth and inertial data, human action recognition, human actions, human computer interaction, image colour analysis, image fusion, image motion analysis, image recognition, inertial sensor data, inertial signals, Kinect camera, multimodal dataset, Multimodal human action dataset, multimodal sensors, multimodality research activities, RGB videos, Skeleton, skeleton positions, surveillance, synchronized data modalities, Thigh, UTD-MHAD, video signal processing, Videos, wearable inertial sensor, Wrist},
+	pages = {168--172},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/9E5LUMBK/7350781.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/7F7BRBBK/Chen et al. - 2015 - UTD-MHAD A multimodal dataset for human action re.pdf:application/pdf}
+}
+
+@inproceedings{chen_utd-mhad:_2015-1,
+	title = {{UTD}-{MHAD}: {A} multimodal dataset for human action recognition utilizing a depth camera and a wearable inertial sensor},
+	shorttitle = {{UTD}-{MHAD}},
+	doi = {10.1109/ICIP.2015.7350781},
+	abstract = {Human action recognition has a wide range of applications including biometrics, surveillance, and human computer interaction. The use of multimodal sensors for human action recognition is steadily increasing. However, there are limited publicly available datasets where depth camera and inertial sensor data are captured at the same time. This paper describes a freely available dataset, named UTD-MHAD, which consists of four temporally synchronized data modalities. These modalities include RGB videos, depth videos, skeleton positions, and inertial signals from a Kinect camera and a wearable inertial sensor for a comprehensive set of 27 human actions. Experimental results are provided to show how this database can be used to study fusion approaches that involve using both depth camera data and inertial sensor data. This public domain dataset is of benefit to multimodality research activities being conducted for human action recognition by various research groups.},
+	booktitle = {2015 {IEEE} {International} {Conference} on {Image} {Processing} ({ICIP})},
+	author = {Chen, C. and Jafari, R. and Kehtarnavaz, N.},
+	month = sep,
+	year = {2015},
+	keywords = {Accelerometers, Biomedical monitoring, biometrics, Cameras, depth camera data, depth videos, fusion approaches, fusion of depth and inertial data, human action recognition, human actions, human computer interaction, image colour analysis, image fusion, image motion analysis, image recognition, inertial sensor data, inertial signals, Kinect camera, multimodal dataset, Multimodal human action dataset, multimodal sensors, multimodality research activities, RGB videos, Skeleton, skeleton positions, surveillance, synchronized data modalities, Thigh, UTD-MHAD, video signal processing, Videos, wearable inertial sensor, Wrist},
+	pages = {168--172},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/UY4BA488/7350781.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/KPFF756D/Chen et al. - 2015 - UTD-MHAD A multimodal dataset for human action re.pdf:application/pdf}
+}
+
+@inproceedings{sturm_benchmark_2012,
+	address = {Vilamoura-Algarve, Portugal},
+	title = {A benchmark for the evaluation of {RGB}-{D} {SLAM} systems},
+	isbn = {978-1-4673-1736-8 978-1-4673-1737-5 978-1-4673-1735-1},
+	url = {http://ieeexplore.ieee.org/document/6385773/},
+	doi = {10.1109/IROS.2012.6385773},
+	abstract = {In this paper, we present a novel benchmark for the evaluation of RGB-D SLAM systems. We recorded a large set of image sequences from a Microsoft Kinect with highly accurate and time-synchronized ground truth camera poses from a motion capture system. The sequences contain both the color and depth images in full sensor resolution (640 × 480) at video frame rate (30 Hz). The ground-truth trajectory was obtained from a motion-capture system with eight high-speed tracking cameras (100 Hz). The dataset consists of 39 sequences that were recorded in an ofﬁce environment and an industrial hall. The dataset covers a large variety of scenes and camera motions. We provide sequences for debugging with slow motions as well as longer trajectories with and without loop closures. Most sequences were recorded from a handheld Kinect with unconstrained 6-DOF motions but we also provide sequences from a Kinect mounted on a Pioneer 3 robot that was manually navigated through a cluttered indoor environment. To stimulate the comparison of different approaches, we provide automatic evaluation tools both for the evaluation of drift of visual odometry systems and the global pose error of SLAM systems. The benchmark website [1] contains all data, detailed descriptions of the scenes, speciﬁcations of the data formats, sample code, and evaluation tools.},
+	language = {en},
+	urldate = {2019-07-10},
+	booktitle = {2012 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and {Systems}},
+	publisher = {IEEE},
+	author = {Sturm, Jrgen and Engelhard, Nikolas and Endres, Felix and Burgard, Wolfram and Cremers, Daniel},
+	month = oct,
+	year = {2012},
+	pages = {573--580},
+	file = {Sturm et al. - 2012 - A benchmark for the evaluation of RGB-D SLAM syste.pdf:/Users/jonoschwan/Zotero/storage/9IAUX6WB/Sturm et al. - 2012 - A benchmark for the evaluation of RGB-D SLAM syste.pdf:application/pdf}
+}
+
+@article{kim_deep_2018,
+	title = {Deep {Monocular} {Depth} {Estimation} via {Integration} of {Global} and {Local} {Predictions}},
+	volume = {27},
+	issn = {1057-7149},
+	doi = {10.1109/TIP.2018.2836318},
+	abstract = {Recent works on machine learning have greatly advanced the accuracy of single image depth estimation. However, the resulting depth images are still over-smoothed and perceptually unsatisfying. This paper casts depth prediction from single image as a parametric learning problem. Specifically, we propose a deep variational model that effectively integrates heterogeneous predictions from two convolutional neural networks (CNNs), named global and local networks. They have contrasting network architecture and are designed to capture the depth information with complementary attributes. These intermediate outputs are then combined in the integration network based on the variational framework. By unrolling the optimization steps of Split Bregman iterations in the integration network, our model can be trained in an end-to-end manner. This enables one to simultaneously learn an efficient parameterization of the CNNs and hyper-parameter in the variational method. Finally, we offer a new data set of 0.22 million RGB-D images captured by Microsoft Kinect v2. Our model generates realistic and discontinuity-preserving depth prediction without involving any low-level segmentation or superpixels. Intensive experiments demonstrate the superiority of the proposed method in a range of RGB-D benchmarks, including both indoor and outdoor scenarios.},
+	number = {8},
+	journal = {IEEE Transactions on Image Processing},
+	author = {Kim, Y. and Jung, H. and Min, D. and Sohn, K.},
+	month = aug,
+	year = {2018},
+	keywords = {2D-to-3D conversion, CNNs, Computational modeling, convolution, convolutional neural networks, Databases, deep monocular depth estimation, deep variational model, Depth estimation, depth images, discontinuity-preserving depth prediction, Estimation, feedforward neural nets, global networks, global predictions, image colour analysis, integration network, iterative methods, learning (artificial intelligence), local networks, local predictions, Measurement, Microsoft Kinect v2, network architecture, non-parametric sampling, Optimization, parametric learning problem, Predictive models, RGB-D database, RGB-D images, single image depth estimation, Split Bregman iterations, Training, variational method, variational techniques},
+	pages = {4131--4144},
+	file = {IEEE Xplore Abstract Record:/Users/jonoschwan/Zotero/storage/F8FMUK72/8359371.html:text/html;IEEE Xplore Full Text PDF:/Users/jonoschwan/Zotero/storage/249XUI2B/Kim et al. - 2018 - Deep Monocular Depth Estimation via Integration of.pdf:application/pdf}
+}
+
+
+@article{sigal_humaneva:_2010,
+	title = {{HumanEva}: {Synchronized} {Video} and {Motion} {Capture} {Dataset} and {Baseline} {Algorithm} for {Evaluation} of {Articulated} {Human} {Motion}},
+	volume = {87},
+	issn = {0920-5691, 1573-1405},
+	shorttitle = {{HumanEva}},
+	url = {http://link.springer.com/10.1007/s11263-009-0273-6},
+	doi = {10.1007/s11263-009-0273-6},
+	language = {en},
+	number = {1-2},
+	urldate = {2019-07-11},
+	journal = {International Journal of Computer Vision},
+	author = {Sigal, Leonid and Balan, Alexandru O. and Black, Michael J.},
+	month = mar,
+	year = {2010},
+	pages = {4--27},
+	file = {Sigal et al. - 2010 - HumanEva Synchronized Video and Motion Capture Da.pdf:/Users/jonoschwan/Zotero/storage/6RJ5FK7V/Sigal et al. - 2010 - HumanEva Synchronized Video and Motion Capture Da.pdf:application/pdf}
+}

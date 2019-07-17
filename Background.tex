@@ -1,0 +1,14 @@
+\section{Related Datasets}
+First, we recognize the most similar datasets within the RGB-D realm. Then we address the most similar datasets in general intended to help work toward the solution to motion parameter estimation or a related task.
+
+\subsection{RGB-D Datasets}
+The most similar dataset within our knowledge is that mentioned in the paper, A Benchmark for the Evaluation of RGB-D SLAM Systems \cite{sturm_benchmark_2012}. The dataset contains the color and depth images of a Microsoft Kinect sensor along the ground-truth trajectory of the sensor. The ground-truth trajectory was obtained from a high-accuracy motion-capture system with eight high-speed tracking cameras in addition to accelerometer data from the Kinect. However, due to the extreme limitations of the Kinect and the fact that all of the data was collected indoors, with the same object, and without creation and validation of velocity data, there is significant need to create a more motion parameter estimation specific database.
+
+The DIML RGB-D Dataset \cite{kim_deep_2018} also contains data collected with a Kinect, however this database does include indoor and outdoor video in addition to object segmentation making it more plausible to conduct tests upon for motion parameter estimation purposes.
+
+\subsection{RGB or Motion Parameter Only Datasets}
+The Human Activity Recognition dataset \cite{anguita_public_2013} provides potentially useful data to address the motion parameter estimation problem. The dataset contains smartphone accelerometer information collected by numerous people performing various tasks such as sitting, walking, and going up stairs. This dataset contains no images / video however and was created with the intention of being able to create a model that could predict the activity solely from the accelerometer information.
+
+Another human activity recognition based dataset is the UTD-MHAD \cite{chen_utd-mhad:_2015} which is a dataset containing IMU and video information. This dataset contains 27 actions performed by 8 subjects (4 females and 4 males). Each subject repeated each action 4 times. The actions, such as knock on door, sit to stand, and stand to sit, are fairly limiting in movement, which make them not as desirable to estimate motion parameters for.
+
+HumanEva is a synchronized video and motion capture dataset. The HumanEva dataset \cite{sigal_humaneva:_2010} consists of 4 subjects performing a set of six predefined actions three times (twice with video and motion capture, and once with motion capture alone). This dataset was intended to be used to improve upon existing three dimensional pose estimation but the information may also be used to train and test upon as motion parameter estimation models improve.

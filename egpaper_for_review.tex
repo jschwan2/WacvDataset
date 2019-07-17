@@ -1,0 +1,54 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{wacv}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+%\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+\wacvfinalcopy % *** Uncomment this line for the final submission
+
+\def\wacvPaperID{****} % *** Enter the wacv Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ifwacvfinal\pagestyle{empty}\fi
+\setcounter{page}{1}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{I-MOVE: Independent Moving Objects for Velocity Estimation}%, A RGB-D Dataset}
+
+% Authors at the same institution
+\author{Jonathan Schwan \hspace{2cm} Akshay Dhamija \hspace{2cm} Terrance E. Boult\\
+University of Colorado, Colorado Springs\\
+{\tt\small jschwan2@uccs.edu}
+}
+
+\maketitle
+\ifwacvfinal\thispagestyle{empty}\fi
+
+\maketitle
+
+\input{Abstract.tex}
+\input{Introduction.tex}
+\input{Background.tex}
+\input{Our_Dataset.tex}
+\input{Conclusion.tex}
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{reu.bib}
+}
+
+
+\end{document}
